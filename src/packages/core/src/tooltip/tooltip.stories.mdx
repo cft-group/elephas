@@ -1,0 +1,63 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import tooltipLeft from './tooltip-left.html';
+import tooltipRight from './tooltip-right.html';
+import tooltipTop from './tooltip-top.html';
+import tooltipTopLeft from './tooltip-top-left.html';
+import tooltipTopRight from './tooltip-top-right.html';
+import tooltipBottom from './tooltip-bottom.html';
+import tooltipBottomLeft from './tooltip-bottom-left.html';
+import tooltipBottomRight from './tooltip-bottom-right.html';
+
+<Meta title='Core/Tooltip' />
+
+# Tooltip
+
+<Preview>
+  <Story name="left" parameters={{ docs: { source: { code: pretty(tooltipLeft) } } }}>
+    { () => tooltipLeft }
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="right" parameters={{ docs: { source: { code: pretty(tooltipRight) } } }}>
+    { () => tooltipRight }
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="top" parameters={{ docs: { source: { code: pretty(tooltipTop) } } }}>
+    { () => tooltipTop }
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="top-left" parameters={{ docs: { source: { code: pretty(tooltipTopLeft) } } }}>
+    { () => tooltipTopLeft }
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="top-right" parameters={{ docs: { source: { code: pretty(tooltipTopRight) } } }}>
+    { () => tooltipTopRight }
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="bottom" parameters={{ docs: { source: { code: pretty(tooltipBottom) } } }}>
+    { () => tooltipBottom }
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="bottom-left" parameters={{ docs: { source: { code: pretty(tooltipBottomLeft) } } }}>
+    { () => tooltipBottomLeft }
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="bottom-right" parameters={{ docs: { source: { code: pretty(tooltipBottomRight) } } }}>
+    { () => tooltipBottomRight }
+  </Story>
+</Preview>

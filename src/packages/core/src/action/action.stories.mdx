@@ -1,0 +1,14 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import action from './action.html';
+
+<Meta title='Core/Action' />
+
+# Action
+
+<Preview>
+  <Story name="default" height="120px" parameters={{ docs: { source: { code: pretty(action) } } }}>
+    { () => action }
+  </Story>
+</Preview>

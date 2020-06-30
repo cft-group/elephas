@@ -1,0 +1,14 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import breadcrumbs from './breadcrumbs.html';
+
+<Meta title='Core/Breadcrumbs' />
+
+# Breadcrumbs
+
+<Preview>
+  <Story name="default" parameters={{ docs: { source: { code: pretty(breadcrumbs) } } }}>
+    { () => breadcrumbs }
+  </Story>
+</Preview>

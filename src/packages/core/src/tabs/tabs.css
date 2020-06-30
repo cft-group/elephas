@@ -1,0 +1,22 @@
+._e_tabs {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 2px solid var(--N50);
+}
+
+._e_tabs__item {
+  padding: 10px var(--S20);
+  border-radius: var(--S4) var(--S4) 0 0;
+  font: var(--Subhead);
+  color: var(--N600);
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--N10);
+  }
+}
+
+._e_tabs__item_selected {
+  color: var(--B400);
+  box-shadow: 0 2px 0 0 var(--B400);
+}

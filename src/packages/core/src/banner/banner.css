@@ -1,0 +1,44 @@
+._e_banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: var(--S40);
+}
+
+._e_banner_appearance_danger {
+  background-color: var(--R500);
+}
+
+._e_banner_appearance_warning {
+  background-color: var(--O500);
+}
+
+._e_banner__text {
+  font: var(--Subhead);
+  color: var(--N0);
+}
+
+._e_banner__close {
+  position: absolute;
+  top: var(--S4);
+  right: var(--S8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--S32);
+  height: var(--S32);
+  border-radius: var(--S4);
+  cursor: pointer;
+
+  &:hover > svg {
+    fill: var(--N50);
+  }
+
+  & > svg {
+    width: var(--S24);
+    height: var(--S24);
+    fill: var(--N0);
+  }
+}

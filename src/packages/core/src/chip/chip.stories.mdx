@@ -1,0 +1,14 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import chip from './chip.html';
+
+<Meta title='Core/Chip' />
+
+# Chip
+
+<Preview>
+  <Story name="default" height="160px" parameters={{ docs: { source: { code: pretty(chip) } } }}>
+    { () => chip }
+  </Story>
+</Preview>

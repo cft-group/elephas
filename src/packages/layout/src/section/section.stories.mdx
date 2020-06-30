@@ -1,0 +1,14 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import section from './section.html';
+
+<Meta title='Layout/Section' />
+
+# Section
+
+<Preview>
+  <Story name="default" height="720px" parameters={{ docs: { source: { code: pretty(section) } } }}>
+    { () => section }
+  </Story>
+</Preview>

@@ -1,0 +1,208 @@
+._e_input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+._e_input__field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: var(--S4) var(--S4) 0 0;
+  background-color: var(--N50);
+  transition: background-color 50ms ease-out;
+
+  &:hover {
+    background-color: var(--N100);
+  }
+}
+
+._e_input__label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  max-width: calc(100% - var(--S48));
+  padding: 9px var(--S12) 0 var(--S12);
+  font: var(--Body2);
+  color: var(--N600);
+  transform-origin: top left;
+  transition: transform 200ms cubic-bezier(0, 0, 0.2, 1);
+  pointer-events: none;
+  transform: scale(1.167) translateY(8px);
+}
+
+._e_input__line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--N600);
+}
+
+._e_input__control {
+  padding: 28px var(--S12) var(--S8);
+  font: var(--Subhead);
+  color: var(--N800);
+
+  &::-webkit-inner-spin-button, 
+  &::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0;
+  }
+
+  &::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+
+  &:focus {
+    & ~ ._e_input__label {
+      color: var(--B400);
+      transform: none;
+    }
+
+    & ~ ._e_input__line {
+      height: 2px;
+      background-color: var(--B400);
+    }
+  }
+
+  &:not(:placeholder-shown) {
+    & ~ ._e_input__label {
+      transform: none;
+    }
+  }
+}
+
+._e_input__hint {
+  margin-top: var(--S4);
+  font: var(--Body2);
+  color: var(--N600);
+}
+
+
+/* Input Appearances */
+
+._e_input_appearance_error {
+  & ._e_input__field {
+    background-color: var(--R50);
+
+    &:hover {
+      background-color: var(--R100);
+    }
+  }
+
+  & ._e_input__line {
+    background-color: var(--R500);
+  }
+
+  & ._e_input__control:focus {
+    & ~ ._e_input__label {
+      color: var(--N600);
+    }
+
+    & ~ ._e_input__line {
+      background-color: var(--R500);
+    }
+  }
+  
+  & ._e_input__hint {
+    color: var(--R500);
+  }
+}
+
+._e_input_appearance_readonly {
+  cursor: default;
+
+  & ._e_input__field {
+    background-color: var(--N10);
+  }
+
+  & ._e_input__line {
+    background-color: var(--N10);
+  }
+  
+  & ._e_input__control {
+    font: var(--Body1);
+    color: var(--N600);
+  }
+
+  & ._e_input__control:focus {
+    & ~ ._e_input__label {
+      color: var(--N600);
+    }
+
+    & ~ ._e_input__line {
+      height: 1px;
+      background-color: var(--N10);
+    }
+  }
+}
+
+._e_input_appearance_disabled {
+  cursor: default;
+
+  & ._e_input__field {
+    background-color: var(--N10);
+  }
+
+  & ._e_input__line {
+    background-color: var(--N200);
+  }
+  
+  & ._e_input__label {
+    color: var(--N200);
+  }
+
+  & ._e_input__control {
+    color: var(--N200);
+  }
+
+  & ._e_input__control:focus {
+    & ~ ._e_input__label {
+      color: var(--N200);
+    }
+
+    & ~ ._e_input__line {
+      height: 1px;
+      background-color: var(--N200);
+    }
+  }
+}
+
+
+/* Input Sizes */
+
+._e_input_size_2 {
+  & ._e_input__field {
+    width: var(--C2);
+  }
+}
+
+._e_input_size_4 {
+  & ._e_input__field {
+    width: var(--C4);
+  }
+}
+
+._e_input_size_6 {
+  & ._e_input__field {
+    width: var(--C6);
+  }
+}
+
+._e_input_size_8 {
+  & ._e_input__field {
+    width: var(--C8);
+  }
+}
+
+._e_input_size_12 {
+  & ._e_input__field {
+    width: var(--C12);
+  }
+}

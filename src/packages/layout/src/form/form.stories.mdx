@@ -1,0 +1,14 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import form from './form.html';
+
+<Meta title='Layout/Form' />
+
+# Form
+
+<Preview>
+  <Story name="default" height="960px" parameters={{ docs: { source: { code: pretty(form) } } }}>
+    { () => form }
+  </Story>
+</Preview>

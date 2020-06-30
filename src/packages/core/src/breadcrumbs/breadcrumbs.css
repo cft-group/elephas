@@ -1,0 +1,30 @@
+._e_breadcrumbs {
+  display: flex;
+}
+
+._e_breadcrumbs__item {
+  font: var(--Body1);
+  color: var(--B400);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--B500);
+  }
+
+  &::after {
+    content: '/';
+    display: inline-block;
+    margin: 0 var(--S8);
+    font: var(--Body1);
+    color: var(--N200);
+  }
+}
+
+._e_breadcrumbs__item_passive {
+  cursor: default;
+  color: var(--N600);
+
+  &:hover {
+    color: var(--N600);
+  }
+}

@@ -1,0 +1,14 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import textarea from './textarea.html';
+
+<Meta title='Core/Textarea' />
+
+# Textarea
+
+<Preview>
+  <Story name="default" height="240px" parameters={{ docs: { source: { code: pretty(textarea) } } }}>
+    { () => textarea }
+  </Story>
+</Preview>

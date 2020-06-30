@@ -1,0 +1,114 @@
+._e_tooltip {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--S32);
+  padding: 0 var(--S12);
+  border-radius: var(--S4);
+  background-color: var(--N800);
+  font: var(--Body2);
+  color: var(--N0);
+  white-space: nowrap;
+  z-index: 9001;
+
+  &::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0; 
+    height: 0; 
+  }
+}
+
+._e_tooltip_left {
+  flex-direction: row;
+
+  &::before {
+    right: calc(-1 * var(--S4));
+    border-top: var(--S4) solid transparent;
+    border-bottom: var(--S4) solid transparent;
+    border-left: var(--S4) solid var(--N800);
+  }
+}
+
+._e_tooltip_right {
+  flex-direction: row;
+
+  &::before {
+    left: calc(-1 * var(--S4));
+    border-top: var(--S4) solid transparent;
+    border-bottom: var(--S4) solid transparent;
+    border-right: var(--S4) solid var(--N800);
+  }
+}
+
+._e_tooltip_top {
+  flex-direction: column;
+
+  &::before {
+    bottom: calc(-1 * var(--S4));
+    border-left: var(--S4) solid transparent;
+    border-right: var(--S4) solid transparent;
+    border-top: var(--S4) solid var(--N800);
+  }
+}
+
+._e_tooltip_top-left {
+  flex-direction: column;
+  align-items: flex-end;
+
+  &::before {
+    bottom: calc(-1 * var(--S4));
+    border-left: var(--S4) solid transparent;
+    border-right: var(--S4) solid transparent;
+    border-top: var(--S4) solid var(--N800);
+  }
+}
+
+._e_tooltip_top-right {
+  flex-direction: column;
+  align-items: flex-start;
+
+  &::before {
+    bottom: calc(-1 * var(--S4));
+    border-left: var(--S4) solid transparent;
+    border-right: var(--S4) solid transparent;
+    border-top: var(--S4) solid var(--N800);
+  }
+}
+
+._e_tooltip_bottom {
+  flex-direction: column;
+
+  &::before {
+    top: calc(-1 * var(--S4));
+    border-left: var(--S4) solid transparent;
+    border-right: var(--S4) solid transparent;
+    border-bottom: var(--S4) solid var(--N800);
+  }
+}
+
+._e_tooltip_bottom-left {
+  flex-direction: column;
+  align-items: flex-end;
+
+  &::before {
+    top: calc(-1 * var(--S4));
+    border-left: var(--S4) solid transparent;
+    border-right: var(--S4) solid transparent;
+    border-bottom: var(--S4) solid var(--N800);
+  }
+}
+
+._e_tooltip_bottom-right {
+  flex-direction: column;
+  align-items: flex-start;
+
+  &::before {
+    top: calc(-1 * var(--S4));
+    border-left: var(--S4) solid transparent;
+    border-right: var(--S4) solid transparent;
+    border-bottom: var(--S4) solid var(--N800);
+  }
+}

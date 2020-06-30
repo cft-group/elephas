@@ -1,0 +1,23 @@
+._e_tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--S20);
+  padding: 0 var(--S8);
+  border-radius: var(--S4);
+  font: var(--Body2);
+  color: var(--N800);
+  background-color: var(--N50);
+}
+
+._e_tag_appearance_success {
+  background-color: var(--G100);
+}
+
+._e_tag_appearance_warning {
+  background-color: var(--O50);
+}
+
+._e_tag_appearance_danger {
+  background-color: var(--R50);
+}

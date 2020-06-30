@@ -1,0 +1,13 @@
+{
+  "version": "0.0.0",
+  "packages": [
+    "src/packages/*"
+  ],
+  "npmClient": "yarn",
+  "command": {
+    "version": {
+      "message": "chore: publish %s"
+    }
+  },
+  "changelogPreset": "angular"
+}

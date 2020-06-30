@@ -1,0 +1,14 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import select from './select.html';
+
+<Meta title='Core/Select' />
+
+# Select
+
+<Preview>
+  <Story name="default" height="160px" parameters={{ docs: { source: { code: pretty(select) } } }}>
+    { () => select }
+  </Story>
+</Preview>

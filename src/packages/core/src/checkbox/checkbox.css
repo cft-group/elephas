@@ -1,0 +1,128 @@
+._e_checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover ._e_checkbox__icon::after {
+    opacity: 0.5;
+  }
+
+  &:active ._e_checkbox__icon::after {
+    opacity: 1;
+  }
+}
+
+._e_checkbox_disabled {
+  cursor: default;
+  pointer-events: none;
+
+  &:hover ._e_checkbox__icon::after {
+    opacity: 0;
+  }
+
+  &:active ._e_checkbox__icon::after {
+    opacity: 0;
+  }
+}
+
+._e_checkbox__label {
+  padding-left: var(--S8);
+  font: var(--Body1);
+  color: var(--N800);
+}
+
+._e_checkbox__icon {
+  position: relative;
+  width: var(--S24);
+  height: var(--S24);
+  flex-shrink: 0;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    display: block;
+    width: var(--S40);
+    height: var(--S40);
+    border-radius: 9001px;
+    background-color: var(--N50);
+    opacity: 0;
+    transition: opacity 100ms ease-out;
+    z-index: 1;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: var(--S24);
+    height: var(--S24);
+    z-index: 2;
+  }
+}
+
+._e_checkbox__input {
+  padding: 0;
+  margin: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+
+  /*
+    Checked
+  */
+  &:checked + ._e_checkbox__icon::before {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5 3H19C20.1 3 21 3.9 21 5V19C21 20.1 20.1 21 19 21H5C3.9 21 3 20.1 3 19V5C3 3.9 3.9 3 5 3ZM9.3 16.29C9.69 16.68 10.32 16.68 10.71 16.29L18.29 8.7C18.68 8.31 18.68 7.68 18.29 7.29C17.9 6.9 17.27 6.9 16.88 7.29L10 14.17L7.12 11.29C6.73 10.9 6.1 10.9 5.71 11.29C5.52275 11.4768 5.41751 11.7305 5.41751 11.995C5.41751 12.2595 5.52275 12.5132 5.71 12.7L9.3 16.29Z' fill='%232962FF'/%3E%3C/svg%3E");
+  }
+
+  /*
+    Unchecked
+  */
+  & + ._e_checkbox__icon::before {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5 3H19C20.1 3 21 3.9 21 5V19C21 20.1 20.1 21 19 21H5C3.9 21 3 20.1 3 19V5C3 3.9 3.9 3 5 3ZM6 19H18C18.55 19 19 18.55 19 18V6C19 5.45 18.55 5 18 5H6C5.45 5 5 5.45 5 6V18C5 18.55 5.45 19 6 19Z' fill='%23BABBC0'/%3E%3C/svg%3E%0A");
+  }
+
+  /*
+    Checked and disabled
+  */
+  &:checked:disabled {
+    & + ._e_checkbox__icon::before {
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5 3H19C20.1 3 21 3.9 21 5V19C21 20.1 20.1 21 19 21H5C3.9 21 3 20.1 3 19V5C3 3.9 3.9 3 5 3ZM9.3 16.29C9.69 16.68 10.32 16.68 10.71 16.29L18.29 8.7C18.68 8.31 18.68 7.68 18.29 7.29C17.9 6.9 17.27 6.9 16.88 7.29L10 14.17L7.12 11.29C6.73 10.9 6.1 10.9 5.71 11.29C5.52275 11.4768 5.41751 11.7305 5.41751 11.995C5.41751 12.2595 5.52275 12.5132 5.71 12.7L9.3 16.29Z' fill='%23646572'/%3E%3C/svg%3E%0A");  
+    }
+
+    & ~ ._e_checkbox__label {
+      color: var(--N800);
+    }
+  }
+
+  /*
+    Unchecked and disabled
+  */
+  &:disabled {
+    & + ._e_checkbox__icon::before {
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5 3H19C20.1 3 21 3.9 21 5V19C21 20.1 20.1 21 19 21H5C3.9 21 3 20.1 3 19V5C3 3.9 3.9 3 5 3ZM6 19H18C18.55 19 19 18.55 19 18V6C19 5.45 18.55 5 18 5H6C5.45 5 5 5.45 5 6V18C5 18.55 5.45 19 6 19Z' fill='%23DCDDE0'/%3E%3C/svg%3E%0A");
+    }
+
+    & ~ ._e_checkbox__label {
+      color: var(--N200);
+    }
+  }
+
+  /*
+    Indeterminate
+  */
+  &:indeterminate + ._e_checkbox__icon::before {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5 3H19C20.1 3 21 3.9 21 5V19C21 20.1 20.1 21 19 21H5C3.9 21 3 20.1 3 19V5C3 3.9 3.9 3 5 3ZM8 13H16C16.55 13 17 12.55 17 12C17 11.45 16.55 11 16 11H8C7.45 11 7 11.45 7 12C7 12.55 7.45 13 8 13Z' fill='%232962FF'/%3E%3C/svg%3E");  
+  }
+
+  /*
+    Invalid
+  */
+  &:invalid + ._e_checkbox__icon::before {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5 3H19C20.1 3 21 3.9 21 5V19C21 20.1 20.1 21 19 21H5C3.9 21 3 20.1 3 19V5C3 3.9 3.9 3 5 3ZM6 19H18C18.55 19 19 18.55 19 18V6C19 5.45 18.55 5 18 5H6C5.45 5 5 5.45 5 6V18C5 18.55 5.45 19 6 19Z' fill='%23E6243C'/%3E%3C/svg%3E");  
+  }
+}

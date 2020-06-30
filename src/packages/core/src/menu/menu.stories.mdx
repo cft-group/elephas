@@ -1,0 +1,14 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import menu from './menu.html';
+
+<Meta title='Core/Menu' />
+
+# Menu
+
+<Preview>
+  <Story name="default" height="320px" parameters={{ docs: { source: { code: pretty(menu) } } }}>
+    { () => menu }
+  </Story>
+</Preview>

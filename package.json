@@ -1,0 +1,46 @@
+{
+  "name": "elephas",
+  "version": "0.0.0",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@storybook/addon-actions": "^6.0.0-beta.13",
+    "@storybook/addon-docs": "^6.0.0-beta.13",
+    "@storybook/addon-links": "^6.0.0-beta.13",
+    "@storybook/html": "^6.0.0-beta.13",
+    "autoprefixer": "^9.8.0",
+    "babel-loader": "^8.1.0",
+    "cssnano": "^4.1.10",
+    "husky": "^4.2.5",
+    "lerna": "^3.22.0",
+    "postcss": "^7.0.30",
+    "postcss-autoreset": "^2.0.2",
+    "postcss-cli": "^7.1.1",
+    "postcss-custom-properties": "^9.1.1",
+    "postcss-nested": "^4.2.1",
+    "postcss-nesting": "^7.0.1",
+    "pretty": "^2.0.0",
+    "react": "^16.13.1",
+    "react-is": "^16.13.1"
+  },
+  "scripts": {
+    "storybook:build": "build-storybook -c .storybook -o build --docs -s ./dist",
+    "storybook": "start-storybook --port 6006 --docs --static-dir dist",
+    "postcss:build": "mkdir -p dist && find src -name '*.css' ! -path '*dist*' ! -path '*node_modules*' | xargs cat | postcss > dist/styles.min.css",
+    "postcss": "mkdir -p dist && find src -name '*.css' ! -path '*dist*' ! -path '*node_modules*' | entr -s \"find src -name '*.css' ! -path '*dist*' ! -path '*node_modules*' | xargs cat | postcss > dist/styles.min.css\"",
+    "dev": "yarn postcss & yarn storybook",
+    "lerna:bootstrap": "lerna bootstrap",
+    "lerna:version": "lerna version --exact --force-publish --conventional-commits --create-release github --yes",
+    "lerna:publish": "lerna publish from-package --contents dist --yes",
+    "release": "yarn lerna:bootstrap && yarn lerna:version && yarn lerna:publish",
+    "build-storybook": "yarn postcss:build && yarn storybook:build"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}

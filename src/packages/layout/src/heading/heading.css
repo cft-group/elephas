@@ -1,0 +1,29 @@
+._e_heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--S32);
+}
+
+._e_heading__main {
+  flex-grow: 1;
+  flex-shrink: 0;
+
+  & > ._e_breadcrumbs {
+    margin-bottom: var(--S4);
+  }
+}
+
+._e_heading__title {
+  font: var(--H1);
+  color: var(--N800);
+}
+
+._e_heading-actions {
+  flex-grow: 0;
+  flex-shrink: 0;
+
+  & > ._e_button {
+    margin-left: var(--S20);
+  }
+}

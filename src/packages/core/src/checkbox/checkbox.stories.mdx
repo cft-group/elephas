@@ -1,0 +1,36 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import checkbox from './checkbox.html';
+import disabledCheckbox from './disabled-checkbox.html';
+import indeterminateCheckbox from './indeterminate-checkbox.html';
+import requiredCheckbox from './required-checkbox.html';
+import './indeterminate-checkbox.js';
+
+<Meta title='Core/Checkbox' />
+
+# Checkbox
+
+<Preview>
+  <Story name="default" parameters={{ docs: { source: { code: pretty(checkbox) } } }}>
+    { () => checkbox }
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="disabled" parameters={{ docs: { source: { code: pretty(disabledCheckbox) } } }}>
+    { () => disabledCheckbox }
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="indeterminate" parameters={{ docs: { source: { code: pretty(indeterminateCheckbox) } } }}>
+    { () => indeterminateCheckbox }
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="required" parameters={{ docs: { source: { code: pretty(requiredCheckbox) } } }}>
+    { () => requiredCheckbox }
+  </Story>
+</Preview>

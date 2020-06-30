@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="styles.min.css">
+
+<style>
+  @import url('https://rsms.me/inter/inter.css');
+</style>
+
+<script>
+  const isLocalhost = Boolean(
+    window.location.hostname === 'localhost' ||
+    window.location.hostname === '[::1]' ||
+    window.location.hostname.match(
+      /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
+    )
+  );
+
+  if (isLocalhost) {
+    window.setInterval(function(){
+      for (var link of document.querySelectorAll("link[rel=stylesheet]")) {
+        link.href = link.href.replace(/\?.*|$/, "?" + Date.now())
+      }
+    }, 10000);
+  }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/perfect-scrollbar@1.5.0/dist/perfect-scrollbar.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/perfect-scrollbar@1.5.0/css/perfect-scrollbar.css">
+
+<style>
+  .sbdocs-preview > div > div > div {
+    display: block;
+  }
+</style>

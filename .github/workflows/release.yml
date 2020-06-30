@@ -1,0 +1,64 @@
+name: Release
+on:
+  repository_dispatch:
+    types: [release]
+
+jobs:
+  publish:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.0.0
+      - name: Install dependencies
+        run: yarn install
+      - name: Create .npmrc
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          echo "registry=https://registry.npmjs.org/" >> ~/.npmrc
+          echo "//registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN" >> ~/.npmrc
+      - name: Set git username
+        run: git config user.name "github-actions"
+      - name: Fetch tags
+        run: git fetch --prune --unshallow
+      - name: Release packages
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: yarn release
+  upload-assets:
+    name: Add css files to release
+    needs: publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.0.0
+      - name: Fetch tags
+        run: git fetch --prune --unshallow
+      - name: Get latest tag
+        id: latest_tag
+        uses: WyriHaximus/github-action-get-previous-tag@0.2.0
+        env:
+          GITHUB_TOKEN: "${{ secrets.GH_TOKEN }}"
+      - name: Install lerna
+        run: |
+          yarn global add lerna
+      - name: Generate css
+        run: |
+          ~/.yarn/bin/lerna bootstrap
+          ~/.yarn/bin/lerna run postcss
+      - name: Get css files
+        run: |
+          mkdir styles
+          cd src/packages
+          for d in */ ; do if [ ${d%?} != "common" ]; then cp ${d}dist/styles.min.css ../../styles/${d%?}.min.css; fi; done
+          cd ../..
+      - name: Zip files
+        run: zip -r styles.zip styles
+      - name: Upload files
+        uses: svenstaro/upload-release-action@1.0.1
+        with:
+          repo_token: ${{ secrets.GH_TOKEN }}
+          file: styles.zip
+          asset_name: styles.zip
+          tag: ${{ steps.latest_tag.outputs.tag }}

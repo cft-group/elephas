@@ -1,0 +1,22 @@
+._e_page {
+  display: grid;
+  grid-template:
+    "header header" auto
+    "sidebar main" 1fr
+    / auto 1fr;
+  height: 100vh;
+}
+
+._e_page__header {
+  grid-area: header;
+}
+
+._e_page__sidebar {
+  grid-area: sidebar;
+}
+
+._e_page__main {
+  grid-area: main;
+  padding: var(--S32) var(--S40) var(--S48);
+  overflow-y: auto;
+}

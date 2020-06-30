@@ -1,0 +1,14 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import tag from './tag.html';
+
+<Meta title='Core/Tag' />
+
+# Tag
+
+<Preview>
+  <Story name="default" parameters={{ docs: { source: { code: pretty(tag) } } }}>
+    { () => tag }
+  </Story>
+</Preview>

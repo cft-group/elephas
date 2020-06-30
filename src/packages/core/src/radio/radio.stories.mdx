@@ -1,0 +1,28 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import radio from './radio.html';
+import disabledRadio from './disabled-radio.html';
+import requiredRadio from './required-radio.html';
+
+<Meta title='Core/Radio' />
+
+# Radio
+
+<Preview>
+  <Story name="default" parameters={{ docs: { source: { code: pretty(radio) } } }}>
+    { () => radio }
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="disabled" parameters={{ docs: { source: { code: pretty(disabledRadio) } } }}>
+    { () => disabledRadio }
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="required" parameters={{ docs: { source: { code: pretty(requiredRadio) } } }}>
+    { () => requiredRadio }
+  </Story>
+</Preview>

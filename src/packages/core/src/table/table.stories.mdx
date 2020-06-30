@@ -1,0 +1,22 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import table from './table.html';
+import advancedTable from './advanced-table.html';
+import './advanced-table.js';
+
+<Meta title='Core/Table' />
+
+# Table
+
+<Preview>
+  <Story name="default" height="200px" parameters={{ docs: { source: { code: pretty(table) } } }}>
+    { () => table }
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="advanced" height="320px" parameters={{ docs: { source: { code: pretty(advancedTable) } } }}>
+    { () => advancedTable }
+  </Story>
+</Preview>

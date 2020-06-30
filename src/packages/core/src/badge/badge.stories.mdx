@@ -1,0 +1,22 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import badge from './badge.html';
+import badgeAlert from './badge-alert.html';
+
+<Meta title='Core/Badge' />
+
+# Badge
+
+<Preview>
+  <Story name="default" parameters={{ docs: { source: { code: pretty(badge) } } }}>
+    { () => badge }
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="alert" parameters={{ docs: { source: { code: pretty(badgeAlert) } } }}>
+    { () => badgeAlert }
+  </Story>
+</Preview>
+

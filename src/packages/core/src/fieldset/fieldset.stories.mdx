@@ -1,0 +1,28 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import fieldsetRadio from './fieldset-radio.html';
+import fieldsetCheckbox from './fieldset-checkbox.html';
+import fieldsetRequired from './fieldset-required.html';
+
+<Meta title='Core/Fieldset' />
+
+# Fieldset
+
+<Preview>
+  <Story name="radio" height="160px" parameters={{ docs: { source: { code: pretty(fieldsetRadio) } } }}>
+    { () => fieldsetRadio }
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="checkbox" height="160px" parameters={{ docs: { source: { code: pretty(fieldsetCheckbox) } } }}>
+    { () => fieldsetCheckbox }
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="required" height="360px" parameters={{ docs: { source: { code: pretty(fieldsetRequired) } } }}>
+    { () => fieldsetRequired }
+  </Story>
+</Preview>

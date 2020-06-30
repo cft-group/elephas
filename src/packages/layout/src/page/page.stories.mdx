@@ -1,0 +1,14 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import page from './page.html';
+
+<Meta title='Layout/Page' />
+
+# Page
+
+<Preview>
+  <Story name="default" height="640px" parameters={{ docs: { source: { code: pretty(page) } } }}>
+    { () => page }
+  </Story>
+</Preview>

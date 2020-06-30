@@ -1,0 +1,20 @@
+._e_badge {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: var(--S16);
+  height: var(--S16);
+  padding: 0 var(--S4);
+  border-radius: 9001px;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: center;
+  background-color: var(--N100);
+  color: var(--N600);
+}
+
+._e_badge_appearance_alert {
+  background-color: var(--R500);
+  color: var(--N0);
+}

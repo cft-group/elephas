@@ -1,0 +1,43 @@
+._e_button {
+  border-radius: var(--S4);
+  cursor: pointer;
+  height: var(--S40);
+  padding: 0 var(--S16);
+  font: var(--Subhead);
+  background-color: var(--N50);
+  color: var(--B400);
+
+  &:hover {
+    background-color: var(--B50);
+  }
+}
+
+._e_button_appearance_primary {
+  background-color: var(--B400);
+  color: var(--N0);
+
+  &:hover {
+    background-color: var(--B500);
+  }
+}
+
+._e_button_appearance_danger {
+  background-color: var(--R500);
+  color: var(--N0);
+
+  &:hover {
+    background-color: var(--R600);
+  }
+}
+
+._e_button_size_small {
+  height: var(--S32);
+  padding: 0 var(--S12);
+  font: var(--Body2);
+}
+
+._e_button_size_large {
+  height: var(--S48);
+  padding: 0 var(--S20);
+  font: var(--H3);
+}

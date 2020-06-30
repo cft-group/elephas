@@ -1,0 +1,47 @@
+._e_chip {
+  display: inline-flex;
+  align-items: center;
+  height: var(--S32);
+  padding: 0 var(--S12);
+  border-radius: var(--S4);
+  background-color: var(--N50);
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--N100);
+  }
+}
+
+._e_chip_selected {
+  background-color: var(--B50);
+
+  &:hover {
+    background-color: var(--B100);
+  }
+
+  & ._e_chip__check {
+    display: block;
+  }
+
+  & ._e_chip__text {
+    color: var(--B400);
+  }
+}
+
+._e_chip__check {
+  display: none;
+  width: var(--S20);
+  height: var(--S20);
+  margin-right: 6px;
+
+  & svg {
+    width: var(--S20);
+    height: var(--S20);
+    fill: var(--B400);
+  }
+}
+
+._e_chip__text {
+  font: var(--Body1);
+  color: var(--N600);
+}

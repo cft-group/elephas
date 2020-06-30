@@ -1,0 +1,137 @@
+._e_sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 264px;
+  background-color: var(--N50);
+}
+
+._e_sidebar_collapsed {
+  width: var(--S64);
+
+  & ._e_sidebar-item {
+    position: relative;
+
+    &:hover {
+      & ._e_sidebar-item__tooltip {
+        display: flex;
+      }
+    }
+  }
+
+  & ._e_sidebar-item__text {
+    display: none;
+  }
+
+  & ._e_sidebar-item__badge {
+    position: absolute;
+    top: var(--S4);
+    right: 0;
+  }
+
+  & ._e_sidebar-item__tooltip {
+    position: absolute;
+    top: var(--S8);
+    left: var(--S64);
+  }
+}
+
+._e_sidebar__top {
+  flex-shrink: 0;
+  padding-top: var(--S16);
+}
+
+._e_sidebar__bottom {
+  flex-shrink: 0;
+  padding-bottom: var(--S16);
+}
+
+._e_sidebar__divider {
+  height: 1px;
+  margin: var(--S8) var(--S20);
+  background-color: var(--N200);
+}
+
+._e_sidebar-item {
+  display: flex;
+  align-items: center;
+  margin: var(--S4) var(--S8);
+  padding: var(--S12);
+  border-radius: var(--S4);
+  transition: background-color 100ms ease-out;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--N0);
+
+    & ._e_sidebar-item__text {
+      color: var(--N800);
+    }
+  }
+}
+
+._e_sidebar-item_active {
+  background-color: var(--N0);
+
+  & ._e_sidebar-item__icon svg {
+    fill: var(--B400);
+  }
+
+  & ._e_sidebar-item__text {
+    color: var(--N800);
+  }
+}
+
+._e_sidebar-item_back {
+  & ._e_sidebar-item__icon svg {
+    fill: var(--B400);
+  }
+
+  & ._e_sidebar-item__text {
+    color: var(--B400);
+  }
+
+  &:hover {
+    background-color: transparent;
+
+    & ._e_sidebar-item__icon svg {
+      fill: var(--B500);
+    }
+
+    & ._e_sidebar-item__text {
+      color: var(--B500);
+    }
+  }
+}
+
+._e_sidebar-item__icon {
+  flex-shrink: 0;
+  width: var(--S24);
+  height: var(--S24);
+  margin-right: var(--S20);
+
+  & svg {
+    width: var(--S24);
+    height: var(--S24);
+    fill: var(--N600);
+    transition: fill 100ms ease-out;
+  }
+}
+
+._e_sidebar-item__text {
+  flex-grow: 1;
+  flex-shrink: 0;
+  font: var(--Subhead);
+  color: var(--N600);
+  transition: color 100ms ease-out;
+}
+
+._e_sidebar-item__badge {
+  display: flex;
+  flex-shrink: 0;
+  height: var(--S16);
+}
+
+._e_sidebar-item__tooltip._e_tooltip {
+  display: none;
+}

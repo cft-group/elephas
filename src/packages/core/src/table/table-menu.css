@@ -1,0 +1,28 @@
+._e_tmenu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: var(--S48);
+  padding: 0 var(--S16);
+  background-color: var(--N600);
+  z-index: 30;
+}
+
+._e_tmenu__text {
+  font: var(--Body1);
+  color: var(--N0);
+}
+
+._e_tmenu__link {
+  text-decoration: underline;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--N100);
+  }
+}

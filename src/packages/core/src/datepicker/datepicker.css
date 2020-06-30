@@ -1,0 +1,108 @@
+._e_datepicker {
+  & ._e_input__control:focus ~ ._e_datepicker__box {
+    display: grid;
+  }
+}
+
+._e_datepicker__box {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  column-gap: var(--S20);
+  padding: var(--S20);
+  border-radius: 0 var(--S4) var(--S4) var(--S4);
+  background-color: var(--N0);
+  box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.16), 0px 1px 4px rgba(0, 0, 0, 0.04);
+  z-index: 8999;
+}
+
+._e_dpcal { }
+
+._e_dpcal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--S12);
+}
+
+._e_dpcal__arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--S40);
+  height: var(--S40);
+  margin: calc(-1 * var(--S8)) calc(-1 * var(--S4));
+  border-radius: var(--S4);
+  cursor: pointer;
+
+  & svg {
+    width: var(--S24);
+    height: var(--S24);
+    fill: var(--N600);
+  }
+
+  &:hover {
+    background-color: var(--N50);
+
+    & svg {
+      fill: var(--B400);
+    }
+  }
+}
+
+._e_dpcal__arrow_hidden {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+._e_dpcal__month {
+  font: var(--Body1);
+  color: var(--N800);
+}
+
+._e_dpcal__grid {
+  display: grid;
+  grid-template-columns: repeat(7, var(--S32));
+  grid-template-rows: repeat(6, var(--S32));
+}
+
+._e_dpcal__cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--S32);
+  height: var(--S32);
+  border-radius: var(--S4);
+}
+
+._e_dpcal__weekday {
+  font: var(--Body2);
+  color: var(--N600);
+}
+
+._e_dpcal__date {
+  font: var(--Subhead);
+  color: var(--N800);
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--N50);
+  }
+}
+
+._e_dpcal__date_empty {
+  cursor: default;
+  pointer-events: none;
+}
+
+._e_dpcal__date_selected {
+  color: var(--N0);
+  background-color: var(--B400);
+
+  &:hover {
+    background-color: var(--B500);
+  }
+}

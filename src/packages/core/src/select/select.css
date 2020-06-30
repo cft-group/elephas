@@ -1,0 +1,41 @@
+._e_select {
+  & ._e_input__control {
+    &:invalid {
+      & ~ ._e_input__label {
+        transform: scale(1.167) translateY(8px);
+      }
+    }
+
+    &:focus ~ ._e_select__arrow {
+      transform: rotate(180deg);
+
+      & svg {
+        fill: var(--B400);
+      }
+    }
+  }
+}
+
+._e_select__arrow {
+  position: absolute;
+  pointer-events: none;
+  top: var(--S16);
+  right: var(--S8);
+  width: var(--S24);
+  height: var(--S24);
+  transition: transform 200ms ease-out;
+
+  & svg {
+    fill: var(--N600);
+    width: var(--S24);
+    height: var(--S24);
+  }
+}
+
+._e_input_error {
+  & ._e_input__control:focus {
+    & ~ ._e_select__arrow svg {
+      fill: var(--N600);
+    }
+  }
+}

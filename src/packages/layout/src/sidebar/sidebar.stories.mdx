@@ -1,0 +1,21 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import sidebar from './sidebar.html';
+import sidebarCollapsed from './sidebar-collapsed.html';
+
+<Meta title='Layout/Sidebar' />
+
+# Sidebar
+
+<Preview>
+  <Story name="default" height="360px" parameters={{ docs: { source: { code: pretty(sidebar) } } }}>
+    { () => sidebar }
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="collapsed" height="360px" parameters={{ docs: { source: { code: pretty(sidebarCollapsed) } } }}>
+    { () => sidebarCollapsed }
+  </Story>
+</Preview>

@@ -1,0 +1,14 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import snackbar from './snackbar.html';
+
+<Meta title='Core/Snackbar' />
+
+# Snackbar
+
+<Preview>
+  <Story name="default" height="160px" parameters={{ docs: { source: { code: pretty(snackbar) } } }}>
+    { () => snackbar }
+  </Story>
+</Preview>

@@ -1,0 +1,14 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import datalist from './datalist.html';
+
+<Meta title='Core/Datalist' />
+
+# Datalist
+
+<Preview>
+  <Story name="default" height="240px" parameters={{ docs: { source: { code: pretty(datalist) } } }}>
+    { () => datalist }
+  </Story>
+</Preview>

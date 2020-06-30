@@ -1,0 +1,14 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import banner from './banner.html';
+
+<Meta title='Core/Banner' />
+
+# Banner
+
+<Preview>
+  <Story name="default" height="180px" parameters={{ docs: { source: { code: pretty(banner) } } }}>
+    { () => banner }
+  </Story>
+</Preview>

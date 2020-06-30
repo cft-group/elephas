@@ -1,0 +1,14 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import datepicker from './datepicker.html';
+
+<Meta title='Core/Datepicker' />
+
+# Datepicker
+
+<Preview>
+  <Story name="default" height="480px" parameters={{ docs: { source: { code: pretty(datepicker) } } }}>
+    { () => datepicker }
+  </Story>
+</Preview>

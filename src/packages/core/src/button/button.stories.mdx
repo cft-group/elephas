@@ -1,0 +1,14 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import button from './button.html';
+
+<Meta title='Core/Button' />
+
+# Button
+
+<Preview>
+  <Story name="default" height="240px" parameters={{ docs: { source: { code: pretty(button) } } }}>
+    { () => button }
+  </Story>
+</Preview>

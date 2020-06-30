@@ -1,0 +1,27 @@
+._e_section {
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+._e_section__title {
+  color: var(--N800);
+}
+
+._e_section_size_normal {
+  margin-top: var(--S48);
+
+  & ._e_section__title {
+    margin-bottom: var(--S24);
+    font: var(--H2);
+  }
+}
+
+._e_section_size_small {
+  margin-top: var(--S32);
+
+  & ._e_section__title {
+    margin-bottom: var(--S16);
+    font: var(--H3);
+  }
+}

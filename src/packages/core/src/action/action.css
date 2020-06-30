@@ -1,0 +1,32 @@
+._e_action {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: var(--S40);
+
+  &:hover {
+    & ._e_action__icon svg {
+      fill: var(--B400);
+    }
+    & ._e_action__text {
+      color: var(--B400);
+    }
+  }
+}
+
+._e_action__icon {
+  width: var(--S24);
+  height: var(--S24);
+  margin-right: var(--S8);
+
+  & svg {
+    width: var(--S24);
+    height: var(--S24);
+    fill: var(--N600);
+  }
+}
+
+._e_action__text {
+  font: var(--Subhead);
+  color: var(--N600);
+}

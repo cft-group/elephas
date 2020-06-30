@@ -1,0 +1,24 @@
+._e_autocomplete { }
+
+._e_autocomplete_extras {
+  flex-direction: column;
+  justify-content: center;
+  height: var(--S64);
+}
+
+._e_autocomplete__text {
+  width: 100%;
+  font: var(--Subhead);
+  color: var(--N800);
+}
+
+._e_autocomplete__hint {
+  width: 100%;
+  margin-top: var(--S4);
+  font: var(--Body2);
+  color: var(--N600);
+}
+
+._e_autocomplete__highlight {
+  background-color: var(--O50);
+}

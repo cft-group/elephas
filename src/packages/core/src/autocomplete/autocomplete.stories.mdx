@@ -1,0 +1,14 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import autocomplete from './autocomplete.html';
+
+<Meta title='Core/Autocomplete' />
+
+# Autocomplete
+
+<Preview>
+  <Story name="default" height="320px" parameters={{ docs: { source: { code: pretty(autocomplete) } } }}>
+    { () => autocomplete }
+  </Story>
+</Preview>

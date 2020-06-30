@@ -1,0 +1,39 @@
+._e_form {
+  & > ._e_input {
+    margin-bottom: var(--S20);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  & > ._e_fieldset, > ._e_checkbox, > ._e_upload, > ._e_info {
+    margin-top: var(--S32);
+    margin-bottom: var(--S32);
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+._e_form__line {
+  display: flex;
+  margin-bottom: var(--S20);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  & > ._e_input {
+    margin-right: var(--S16);
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

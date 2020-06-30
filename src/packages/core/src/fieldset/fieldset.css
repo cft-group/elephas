@@ -1,0 +1,22 @@
+._e_fieldset {
+  display: block;
+  
+  & > ._e_checkbox, > ._e_radio {
+    margin-bottom: var(--S12);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+._e_fieldset__legend {
+  margin-bottom: var(--S12);
+  font: var(--Body1);
+  color: var(--N800);
+}
+
+._e_fieldset__error {
+  font: var(--Body2);
+  color: var(--R500);
+}
