@@ -1,0 +1,14 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import link from './link.html';
+
+<Meta title='Core/Link' />
+
+# Link
+
+<Preview>
+  <Story name="default" parameters={{ docs: { source: { code: pretty(link) } } }}>
+    { () => link }
+  </Story>
+</Preview>

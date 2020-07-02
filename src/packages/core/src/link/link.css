@@ -1,0 +1,8 @@
+._e_link {
+  color: var(--B400);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--B500);
+  }
+}
