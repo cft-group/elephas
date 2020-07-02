@@ -12,6 +12,7 @@ module.exports = {
   fontSize: '100%',
   fontFamily: '"Inter", sans-serif',
   lineHeight: 'normal',
+  textDecoration: 'none',
   '-moz-appearance': 'none',
   '-webkit-appearance': 'none',
   '&:focus': {
