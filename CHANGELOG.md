@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.6](https://github.com/cft-group/elephas/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2020-07-14)
+
+
+### Bug Fixes
+
+* **input:** fix disabled input control color in Safari ([d2a34d5](https://github.com/cft-group/elephas/commit/d2a34d5995e67d38bef4e2af606a59a41bdfcffe))
+
+
+
+
+
 # [1.0.0-beta.5](https://github.com/cft-group/elephas/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2020-07-14)
 
 
