@@ -193,6 +193,7 @@
 
   & ._e_input__control {
     color: var(--N200);
+    -webkit-text-fill-color: currentcolor;
   }
 
   & ._e_input__control:focus {
