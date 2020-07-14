@@ -3055,6 +3055,7 @@ sans-serif;
 ._e_input_appearance_disabled ._e_input__control {
     color: #BABBC0;
     color: var(--N200);
+    -webkit-text-fill-color: currentcolor;
   }
 
 ._e_input_appearance_disabled ._e_input__control:focus ~ ._e_input__label {
