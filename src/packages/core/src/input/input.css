@@ -30,6 +30,7 @@
   transition: transform 200ms cubic-bezier(0, 0, 0.2, 1);
   pointer-events: none;
   transform: scale(1.167) translateY(8px);
+  z-index: 2;
 }
 
 ._e_input__background {
@@ -43,7 +44,7 @@
   border-radius: var(--S4) var(--S4) 0 0;
   background-color: var(--N50);
   transition: background-color 50ms ease-out;
-  z-index: -1;
+  z-index: 1;
 }
 
 ._e_input__line {
@@ -54,12 +55,15 @@
   width: 100%;
   height: 1px;
   background-color: var(--N600);
+  z-index: 2;
 }
 
 ._e_input__control {
+  position: relative;
   padding: 28px var(--S12) var(--S8);
   font: var(--Subhead);
   color: var(--N800);
+  z-index: 2;
 
   &::-webkit-inner-spin-button, 
   &::-webkit-outer-spin-button { 
