@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.7](https://github.com/cft-group/elephas/compare/v1.0.0-beta.6...v1.0.0-beta.7) (2020-07-20)
+
+
+### Features
+
+* **sidebar:** change back link to heading ([3fc9f82](https://github.com/cft-group/elephas/commit/3fc9f82e1a7316082ede47531a9ae4f48f0282a7))
+
+
+### BREAKING CHANGES
+
+* **sidebar:** css class and element change for back link
+
+
+
+
+
 # [1.0.0-beta.6](https://github.com/cft-group/elephas/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2020-07-14)
 
 **Note:** Version bump only for package @elephas/layout
