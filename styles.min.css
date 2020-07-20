@@ -21,6 +21,7 @@
 ._e_sidebar__divider,
 ._e_sidebar-item,
 ._e_sidebar-item_active,
+._e_sidebar-item_heading,
 ._e_sidebar-item__icon,
 ._e_sidebar-item__text,
 ._e_sidebar-item__badge,
@@ -189,7 +190,7 @@
   -moz-appearance: none;
   -webkit-appearance: none;
 }
-._e_heading:focus, ._e_heading__main:focus, ._e_heading__title:focus, ._e_heading-actions:focus, ._e_section__title:focus, ._e_section_size_normal:focus, ._e_section_size_small:focus, ._e_header:focus, ._e_header__left:focus, ._e_header__center:focus, ._e_header__right:focus, ._e_header-action:focus, ._e_page:focus, ._e_page__header:focus, ._e_page__sidebar:focus, ._e_page__main:focus, ._e_sidebar:focus, ._e_sidebar_collapsed:focus, ._e_sidebar__top:focus, ._e_sidebar__bottom:focus, ._e_sidebar__divider:focus, ._e_sidebar-item:focus, ._e_sidebar-item_active:focus, ._e_sidebar-item__icon:focus, ._e_sidebar-item__text:focus, ._e_sidebar-item__badge:focus, ._e_form:focus, ._e_form__line:focus, ._e_tag:focus, ._e_tag_appearance_success:focus, ._e_tag_appearance_warning:focus, ._e_tag_appearance_danger:focus, ._e_menu:focus, ._e_menu__item:focus, ._e_radio:focus, ._e_radio_disabled:focus, ._e_radio__label:focus, ._e_radio__icon:focus, ._e_radio__icon::after:focus, ._e_radio__icon::before:focus, ._e_radio__input:focus, ._e_fieldset:focus, ._e_fieldset__legend:focus, ._e_fieldset__error:focus, ._e_info:focus, ._e_info_warning:focus, ._e_info_error:focus, ._e_info__icon:focus, ._e_info__text:focus, ._e_action:focus, ._e_action__icon:focus, ._e_action__text:focus, ._e_tabs:focus, ._e_tabs__item:focus, ._e_tabs__item_selected:focus, ._e_tooltip:focus, ._e_tooltip::before:focus, ._e_tooltip_left:focus, ._e_tooltip_left::before:focus, ._e_tooltip_right:focus, ._e_tooltip_right::before:focus, ._e_tooltip_top:focus, ._e_tooltip_top::before:focus, ._e_tooltip_top-left:focus, ._e_tooltip_top-left::before:focus, ._e_tooltip_top-right:focus, ._e_tooltip_top-right::before:focus, ._e_tooltip_bottom:focus, ._e_tooltip_bottom::before:focus, ._e_tooltip_bottom-left:focus, ._e_tooltip_bottom-left::before:focus, ._e_tooltip_bottom-right:focus, ._e_tooltip_bottom-right::before:focus, ._e_autocomplete:focus, ._e_autocomplete_extras:focus, ._e_autocomplete__text:focus, ._e_autocomplete__hint:focus, ._e_autocomplete__highlight:focus, ._e_dropdown__card:focus, ._e_dropdown__item:focus, ._e_upload:focus, ._e_upload__label:focus, ._e_upload__input:focus, ._e_upload__control:focus, ._e_upload__action:focus, ._e_upload__hint:focus, ._e_upload__error:focus, ._e_upload-file:focus, ._e_upload-file__box:focus, ._e_upload-file__name:focus, ._e_upload-file__size:focus, ._e_upload-file__remove:focus, ._e_upload-file__error:focus, ._e_datalist:focus, ._e_datalist__line:focus, ._e_datalist__title:focus, ._e_datalist__value:focus, ._e_checkbox:focus, ._e_checkbox_disabled:focus, ._e_checkbox__label:focus, ._e_checkbox__icon:focus, ._e_checkbox__icon::after:focus, ._e_checkbox__icon::before:focus, ._e_checkbox__input:focus, ._e_textarea:focus, ._e_breadcrumbs:focus, ._e_breadcrumbs__item:focus, ._e_breadcrumbs__item::after:focus, ._e_breadcrumbs__item_passive:focus, ._e_button:focus, ._e_button_appearance_primary:focus, ._e_button_appearance_danger:focus, ._e_button_size_small:focus, ._e_button_size_large:focus, ._e_button_disabled:focus, ._e_datepicker__box:focus, ._e_dpcal:focus, ._e_dpcal__header:focus, ._e_dpcal__arrow:focus, ._e_dpcal__arrow_hidden:focus, ._e_dpcal__month:focus, ._e_dpcal__grid:focus, ._e_dpcal__cell:focus, ._e_dpcal__weekday:focus, ._e_dpcal__date:focus, ._e_dpcal__date_empty:focus, ._e_dpcal__date_selected:focus, ._e_table:focus, ._e_table__sections:focus, ._e_table__section:focus, ._e_table__section_scrollable:focus, ._e_table__section_shadow::before:focus, ._e_table__section_shadow_on::before:focus, ._e_table__sections_shadow::after:focus, ._e_table__sections_shadow_on::after:focus, ._e_thead:focus, ._e_thead__cell:focus, ._e_tbody:focus, ._e_tbody__row:focus, ._e_tbody__cell:focus, ._e_tfoot:focus, ._e_tpagination:focus, ._e_tpagination__text:focus, ._e_tpagination__action:focus, ._e_tpagination__action::after:focus, ._e_tpagination__action_disabled:focus, ._e_tmenu:focus, ._e_tmenu__text:focus, ._e_tmenu__link:focus, ._e_badge:focus, ._e_badge_appearance_alert:focus, ._e_banner:focus, ._e_banner_appearance_danger:focus, ._e_banner_appearance_warning:focus, ._e_banner__text:focus, ._e_banner__close:focus, ._e_input:focus, ._e_input__field:focus, ._e_input__label:focus, ._e_input__background:focus, ._e_input__line:focus, ._e_input__control:focus, ._e_input__hint:focus, ._e_input_appearance_readonly:focus, ._e_input_appearance_disabled:focus, ._e_chip:focus, ._e_chip_selected:focus, ._e_chip__check:focus, ._e_chip__text:focus, ._e_snackbar:focus, ._e_snackbar__text:focus, ._e_snackbar__timer:focus, ._e_link:focus, ._e_select__arrow:focus {
+._e_heading:focus, ._e_heading__main:focus, ._e_heading__title:focus, ._e_heading-actions:focus, ._e_section__title:focus, ._e_section_size_normal:focus, ._e_section_size_small:focus, ._e_header:focus, ._e_header__left:focus, ._e_header__center:focus, ._e_header__right:focus, ._e_header-action:focus, ._e_page:focus, ._e_page__header:focus, ._e_page__sidebar:focus, ._e_page__main:focus, ._e_sidebar:focus, ._e_sidebar_collapsed:focus, ._e_sidebar__top:focus, ._e_sidebar__bottom:focus, ._e_sidebar__divider:focus, ._e_sidebar-item:focus, ._e_sidebar-item_active:focus, ._e_sidebar-item_heading:focus, ._e_sidebar-item__icon:focus, ._e_sidebar-item__text:focus, ._e_sidebar-item__badge:focus, ._e_form:focus, ._e_form__line:focus, ._e_tag:focus, ._e_tag_appearance_success:focus, ._e_tag_appearance_warning:focus, ._e_tag_appearance_danger:focus, ._e_menu:focus, ._e_menu__item:focus, ._e_radio:focus, ._e_radio_disabled:focus, ._e_radio__label:focus, ._e_radio__icon:focus, ._e_radio__icon::after:focus, ._e_radio__icon::before:focus, ._e_radio__input:focus, ._e_fieldset:focus, ._e_fieldset__legend:focus, ._e_fieldset__error:focus, ._e_info:focus, ._e_info_warning:focus, ._e_info_error:focus, ._e_info__icon:focus, ._e_info__text:focus, ._e_action:focus, ._e_action__icon:focus, ._e_action__text:focus, ._e_tabs:focus, ._e_tabs__item:focus, ._e_tabs__item_selected:focus, ._e_tooltip:focus, ._e_tooltip::before:focus, ._e_tooltip_left:focus, ._e_tooltip_left::before:focus, ._e_tooltip_right:focus, ._e_tooltip_right::before:focus, ._e_tooltip_top:focus, ._e_tooltip_top::before:focus, ._e_tooltip_top-left:focus, ._e_tooltip_top-left::before:focus, ._e_tooltip_top-right:focus, ._e_tooltip_top-right::before:focus, ._e_tooltip_bottom:focus, ._e_tooltip_bottom::before:focus, ._e_tooltip_bottom-left:focus, ._e_tooltip_bottom-left::before:focus, ._e_tooltip_bottom-right:focus, ._e_tooltip_bottom-right::before:focus, ._e_autocomplete:focus, ._e_autocomplete_extras:focus, ._e_autocomplete__text:focus, ._e_autocomplete__hint:focus, ._e_autocomplete__highlight:focus, ._e_dropdown__card:focus, ._e_dropdown__item:focus, ._e_upload:focus, ._e_upload__label:focus, ._e_upload__input:focus, ._e_upload__control:focus, ._e_upload__action:focus, ._e_upload__hint:focus, ._e_upload__error:focus, ._e_upload-file:focus, ._e_upload-file__box:focus, ._e_upload-file__name:focus, ._e_upload-file__size:focus, ._e_upload-file__remove:focus, ._e_upload-file__error:focus, ._e_datalist:focus, ._e_datalist__line:focus, ._e_datalist__title:focus, ._e_datalist__value:focus, ._e_checkbox:focus, ._e_checkbox_disabled:focus, ._e_checkbox__label:focus, ._e_checkbox__icon:focus, ._e_checkbox__icon::after:focus, ._e_checkbox__icon::before:focus, ._e_checkbox__input:focus, ._e_textarea:focus, ._e_breadcrumbs:focus, ._e_breadcrumbs__item:focus, ._e_breadcrumbs__item::after:focus, ._e_breadcrumbs__item_passive:focus, ._e_button:focus, ._e_button_appearance_primary:focus, ._e_button_appearance_danger:focus, ._e_button_size_small:focus, ._e_button_size_large:focus, ._e_button_disabled:focus, ._e_datepicker__box:focus, ._e_dpcal:focus, ._e_dpcal__header:focus, ._e_dpcal__arrow:focus, ._e_dpcal__arrow_hidden:focus, ._e_dpcal__month:focus, ._e_dpcal__grid:focus, ._e_dpcal__cell:focus, ._e_dpcal__weekday:focus, ._e_dpcal__date:focus, ._e_dpcal__date_empty:focus, ._e_dpcal__date_selected:focus, ._e_table:focus, ._e_table__sections:focus, ._e_table__section:focus, ._e_table__section_scrollable:focus, ._e_table__section_shadow::before:focus, ._e_table__section_shadow_on::before:focus, ._e_table__sections_shadow::after:focus, ._e_table__sections_shadow_on::after:focus, ._e_thead:focus, ._e_thead__cell:focus, ._e_tbody:focus, ._e_tbody__row:focus, ._e_tbody__cell:focus, ._e_tfoot:focus, ._e_tpagination:focus, ._e_tpagination__text:focus, ._e_tpagination__action:focus, ._e_tpagination__action::after:focus, ._e_tpagination__action_disabled:focus, ._e_tmenu:focus, ._e_tmenu__text:focus, ._e_tmenu__link:focus, ._e_badge:focus, ._e_badge_appearance_alert:focus, ._e_banner:focus, ._e_banner_appearance_danger:focus, ._e_banner_appearance_warning:focus, ._e_banner__text:focus, ._e_banner__close:focus, ._e_input:focus, ._e_input__field:focus, ._e_input__label:focus, ._e_input__background:focus, ._e_input__line:focus, ._e_input__control:focus, ._e_input__hint:focus, ._e_input_appearance_readonly:focus, ._e_input_appearance_disabled:focus, ._e_chip:focus, ._e_chip_selected:focus, ._e_chip__check:focus, ._e_chip__text:focus, ._e_snackbar:focus, ._e_snackbar__text:focus, ._e_snackbar__timer:focus, ._e_link:focus, ._e_select__arrow:focus {
   outline: none;
 }
 :root {
@@ -536,8 +537,8 @@ sans-serif;
   align-items: center;
   margin: 4px 8px;
   margin: var(--S4) var(--S8);
-  padding: 12px;
-  padding: var(--S12);
+  padding-right: 12px;
+  padding-right: var(--S12);
   border-radius: 4px;
   border-radius: var(--S4);
   transition: background-color 100ms ease-out;
@@ -569,38 +570,57 @@ sans-serif;
     color: var(--N800);
   }
 
-._e_sidebar-item_back ._e_sidebar-item__icon svg {
-    fill: #2962FF;
-    fill: var(--B400);
+._e_sidebar-item_heading {
+  cursor: default;
+  margin-bottom: 16px;
+  margin-bottom: var(--S16)
+}
+
+._e_sidebar-item_heading ._e_sidebar-item__icon {
+    cursor: pointer
   }
 
-._e_sidebar-item_back ._e_sidebar-item__text {
-    color: #2962FF;
-    color: var(--B400);
-  }
-
-._e_sidebar-item_back:hover {
-    background-color: transparent
-  }
-
-._e_sidebar-item_back:hover ._e_sidebar-item__icon svg {
-      fill: #2959E0;
-      fill: var(--B500);
+._e_sidebar-item_heading ._e_sidebar-item__icon svg {
+      fill: #2962FF;
+      fill: var(--B400);
     }
 
-._e_sidebar-item_back:hover ._e_sidebar-item__text {
-      color: #2959E0;
-      color: var(--B500);
-    }
+._e_sidebar-item_heading ._e_sidebar-item__icon:hover svg {
+        fill: #2959E0;
+        fill: var(--B500);
+      }
+
+._e_sidebar-item_heading ._e_sidebar-item__text {
+    padding: 12px 0;
+    padding: var(--S12) 0;
+    font: normal
+normal
+600
+16px
+/
+20px
+"Inter"
+,
+sans-serif;
+    font: var(--H3);
+    color: #27293B;
+    color: var(--N800);
+  }
+
+._e_sidebar-item_heading:hover {
+    background-color: transparent;
+  }
 
 ._e_sidebar-item__icon {
   flex-shrink: 0;
-  width: 24px;
-  width: var(--S24);
-  height: 24px;
-  height: var(--S24);
-  margin-right: 20px;
-  margin-right: var(--S20)
+  width: 48px;
+  width: var(--S48);
+  height: 48px;
+  height: var(--S48);
+  margin-right: 8px;
+  margin-right: var(--S8);
+  padding: 12px;
+  padding: var(--S12)
 }
 
 ._e_sidebar-item__icon svg {
@@ -615,7 +635,7 @@ sans-serif;
 
 ._e_sidebar-item__text {
   flex-grow: 1;
-  flex-shrink: 0;
+  flex-shrink: 1;
   font: normal
 normal
 500
