@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.8](https://github.com/cft-group/elephas/compare/v1.0.0-beta.7...v1.0.0-beta.8) (2020-07-22)
+
+
+### Bug Fixes
+
+* **banner:** change close icon hover style ([f371824](https://github.com/cft-group/elephas/commit/f37182477fdc2b63e30b02961f9f8be2ed39e2c5))
+* **select:** add z-index to arrow ([cd7fba1](https://github.com/cft-group/elephas/commit/cd7fba18df6b3a298e5edb1e80e03ebd38279304))
+
+
+### Features
+
+* **datalist:** add styles for warning and danger lines ([2516be2](https://github.com/cft-group/elephas/commit/2516be25b85a0bca39baa87f9b1d4d3352a4ccb7))
+* **fieldset:** add fieldset hint ([ddfa5e2](https://github.com/cft-group/elephas/commit/ddfa5e2643f84b4f1966d2c4acf50174a5cec829))
+* **upload:** improve upload css ([1c18cd0](https://github.com/cft-group/elephas/commit/1c18cd090972d2e14f38b7ead558f3a8db578ae0))
+
+
+
+
+
 # [1.0.0-beta.7](https://github.com/cft-group/elephas/compare/v1.0.0-beta.6...v1.0.0-beta.7) (2020-07-20)
 
 **Note:** Version bump only for package @elephas/core
