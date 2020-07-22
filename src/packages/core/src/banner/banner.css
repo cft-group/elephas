@@ -9,10 +9,22 @@
 
 ._e_banner_appearance_danger {
   background-color: var(--R500);
+
+  & ._e_banner__close {
+    &:hover {
+      background-color: var(--R600);
+    }
+  }
 }
 
 ._e_banner_appearance_warning {
   background-color: var(--O500);
+
+  & ._e_banner__close {
+    &:hover {
+      background-color: var(--O600);
+    }
+  }
 }
 
 ._e_banner__text {
@@ -31,10 +43,6 @@
   height: var(--S32);
   border-radius: var(--S4);
   cursor: pointer;
-
-  &:hover > svg {
-    fill: var(--N50);
-  }
 
   & > svg {
     width: var(--S24);
