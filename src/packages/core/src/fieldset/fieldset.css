@@ -20,3 +20,8 @@
   font: var(--Body2);
   color: var(--R500);
 }
+
+._e_fieldset__hint {
+  font: var(--Body2);
+  color: var(--N600);
+}
