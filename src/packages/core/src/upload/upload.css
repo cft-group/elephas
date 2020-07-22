@@ -2,9 +2,40 @@
   width: var(--C8);
 }
 
+._e_upload_readonly {
+  & ._e_upload__input {
+    display: none;
+  }
+
+  & ._e_upload__error {
+    display: none;
+  }
+
+  & ._e_upload-file__remove {
+    display: none;
+  }
+
+  & ._e_upload-file__error {
+    display: none;
+  }
+
+  & ._e_upload-file_error {
+    & ._e_upload-file__box {
+      box-shadow: none;
+    }
+  }
+}
+
 ._e_upload_error {
   & ._e_upload__input {
     border-color: var(--R500);
+  }
+}
+
+._e_upload_highlighted {
+  & ._e_upload__input {
+    border-color: var(--B400);
+    background-color: var(--B50);
   }
 }
 
@@ -77,6 +108,15 @@
 }
 
 ._e_upload-file__name {
+  max-width: var(--C4);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font: var(--Body1);
+  color: var(--N800);
+}
+
+._e_upload-file__extension {
   font: var(--Body1);
   color: var(--N800);
 }

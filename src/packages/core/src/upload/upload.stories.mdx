@@ -2,6 +2,7 @@ import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
 import pretty from 'pretty';
 
 import upload from './upload.html';
+import uploadReadonly from './upload-readonly.html';
 
 <Meta title='Core/Upload' />
 
@@ -10,5 +11,11 @@ import upload from './upload.html';
 <Preview>
   <Story name="default" height="400px" parameters={{ docs: { source: { code: pretty(upload) } } }}>
     { () => upload }
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="readonly" height="240px" parameters={{ docs: { source: { code: pretty(uploadReadonly) } } }}>
+    { () => uploadReadonly }
   </Story>
 </Preview>
