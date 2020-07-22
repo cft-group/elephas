@@ -21,6 +21,14 @@
   &:last-of-type {
       border-radius: 0 0 var(--S4) var(--S4);
   }
+
+  &._e_datalist__line_warning {
+    background-color: var(--O50);
+  }
+
+  &._e_datalist__line_danger {
+    background-color: var(--R50);
+  }
 }
 
 ._e_datalist__title {
