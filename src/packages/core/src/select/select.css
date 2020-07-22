@@ -24,6 +24,7 @@
   width: var(--S24);
   height: var(--S24);
   transition: transform 200ms ease-out;
+  z-index: 2;
 
   & svg {
     fill: var(--N600);
