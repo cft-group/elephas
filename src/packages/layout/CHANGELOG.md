@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.9](https://github.com/cft-group/elephas/compare/v1.0.0-beta.8...v1.0.0-beta.9) (2020-07-24)
+
+
+### Bug Fixes
+
+* **sidebar:** remove padding from sidebar heading ([df87507](https://github.com/cft-group/elephas/commit/df87507577fc2ebc36127623ba31f93e8e9f7c97))
+
+
+
+
+
 # [1.0.0-beta.8](https://github.com/cft-group/elephas/compare/v1.0.0-beta.7...v1.0.0-beta.8) (2020-07-22)
 
 **Note:** Version bump only for package @elephas/layout
