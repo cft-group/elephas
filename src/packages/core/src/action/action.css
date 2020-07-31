@@ -22,7 +22,7 @@
   & svg {
     width: var(--S24);
     height: var(--S24);
-    fill: var(--N600);
+    fill: var(--N200);
   }
 }
 
