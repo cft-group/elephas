@@ -2,6 +2,7 @@ import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
 import pretty from 'pretty';
 
 import heading from './heading.html';
+import tableHeading from './table-heading.html';
 
 <Meta title='Layout/Heading' />
 
@@ -10,5 +11,11 @@ import heading from './heading.html';
 <Preview>
   <Story name="default" height="160px" parameters={{ docs: { source: { code: pretty(heading) } } }}>
     { () => heading }
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="table" height="160px" parameters={{ docs: { source: { code: pretty(tableHeading) } } }}>
+    { () => tableHeading }
   </Story>
 </Preview>
