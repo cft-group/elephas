@@ -2,8 +2,12 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  width: var(--C12);
+  width: 100%;
   border-radius: var(--S4);
+}
+
+._e_info_fixed-width {
+  width: var(--C12);
 }
 
 ._e_info_warning {
