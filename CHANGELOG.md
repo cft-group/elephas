@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.12](https://github.com/cft-group/elephas/compare/v1.0.0-beta.11...v1.0.0-beta.12) (2020-08-05)
+
+
+### Features
+
+* **info:** add fixed width class ([5389359](https://github.com/cft-group/elephas/commit/538935948cb01f4f139372beda05fcbc3c399bdb))
+* **input:** add generic icon class ([e604f70](https://github.com/cft-group/elephas/commit/e604f70bcfca861febb750f492e41018bfee2761))
+
+
+### BREAKING CHANGES
+
+* **input:** select icon now has to be wrapped with _e_input__icon div
+
+
+
+
+
 # [1.0.0-beta.11](https://github.com/cft-group/elephas/compare/v1.0.0-beta.10...v1.0.0-beta.11) (2020-08-04)
 
 
