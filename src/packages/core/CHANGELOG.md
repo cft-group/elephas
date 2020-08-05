@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.13](https://github.com/cft-group/elephas/compare/v1.0.0-beta.12...v1.0.0-beta.13) (2020-08-05)
+
+
+### Features
+
+* **spinner:** add spinner ([b6138db](https://github.com/cft-group/elephas/commit/b6138dbcd4ed1d7181b1306ffe347e6299e3999b))
+
+
+
+
+
 # [1.0.0-beta.12](https://github.com/cft-group/elephas/compare/v1.0.0-beta.11...v1.0.0-beta.12) (2020-08-05)
 
 
