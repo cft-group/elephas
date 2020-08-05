@@ -58,6 +58,19 @@
   z-index: 2;
 }
 
+._e_input__icon {
+  position: absolute;
+  top: var(--S16);
+  right: var(--S8);
+  width: var(--S24);
+  height: var(--S24);
+  z-index: 2;
+}
+
+._e_input__icon_passive {
+  pointer-events: none;
+}
+
 ._e_input__control {
   position: relative;
   padding: 28px var(--S12) var(--S8);

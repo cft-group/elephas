@@ -6,7 +6,7 @@
       }
     }
 
-    &:focus ~ ._e_select__arrow {
+    &:focus ~ ._e_input__icon ._e_select__arrow {
       transform: rotate(180deg);
 
       & svg {
@@ -17,14 +17,9 @@
 }
 
 ._e_select__arrow {
-  position: absolute;
-  pointer-events: none;
-  top: var(--S16);
-  right: var(--S8);
   width: var(--S24);
   height: var(--S24);
   transition: transform 200ms ease-out;
-  z-index: 2;
 
   & svg {
     fill: var(--N600);
