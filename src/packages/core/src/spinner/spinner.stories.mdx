@@ -1,0 +1,14 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import spinner from './spinner.html';
+
+<Meta title='Core/Spinner' />
+
+# Spinner
+
+<Preview>
+  <Story name="default" height="240px" parameters={{ docs: { source: { code: pretty(spinner) } } }}>
+    { () => spinner }
+  </Story>
+</Preview>
