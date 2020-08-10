@@ -61,9 +61,7 @@
 ._e_input__icon {
   position: absolute;
   top: var(--S16);
-  right: var(--S8);
-  width: var(--S24);
-  height: var(--S24);
+  right: var(--S12);
   z-index: 2;
 }
 
