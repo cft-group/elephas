@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.14](https://github.com/cft-group/elephas/compare/v1.0.0-beta.13...v1.0.0-beta.14) (2020-08-10)
+
+
+### Bug Fixes
+
+* **input:** remove icon wrapper's size ([0246a79](https://github.com/cft-group/elephas/commit/0246a797954bcec9e9d5080b463530ba9fee9397))
+
+
+
+
+
 # [1.0.0-beta.13](https://github.com/cft-group/elephas/compare/v1.0.0-beta.12...v1.0.0-beta.13) (2020-08-05)
 
 
