@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/cft-group/elephas/compare/v1.0.0...v1.1.0) (2020-10-05)
+
+
+### Features
+
+* **checkbox:** add explicit style for invalid checkbox ([f23292e](https://github.com/cft-group/elephas/commit/f23292efb17116b7ad66320c8f8f33c1d289e5db))
+* **radio:** add explicit style for invalid radio ([36a0831](https://github.com/cft-group/elephas/commit/36a0831f2aa94ac92d103bbf2d38b83a0fdddc99))
+* **snackbar:** add transition styles ([6e7c430](https://github.com/cft-group/elephas/commit/6e7c4307d60e56a23a35c1be761087005ecd88d8))
+
+
+
+
+
 # [1.0.0](https://github.com/cft-group/elephas/compare/v1.0.0-beta.14...v1.0.0) (2020-08-14)
 
 **Note:** Version bump only for package @elephas/core
