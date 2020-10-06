@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/cft-group/elephas/compare/v1.1.0...v1.1.1) (2020-10-06)
+
+
+### Bug Fixes
+
+* **info:** add align-self to support nesting inside flex containers ([4d26fa8](https://github.com/cft-group/elephas/commit/4d26fa8b6cf1ceec052d39ce71e12d34f9e10e5f))
+
+
+
+
+
 # [1.1.0](https://github.com/cft-group/elephas/compare/v1.0.0...v1.1.0) (2020-10-05)
 
 
