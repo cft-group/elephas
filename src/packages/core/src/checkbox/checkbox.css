@@ -1,6 +1,6 @@
 ._e_checkbox {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   cursor: pointer;
 
   &:hover ._e_checkbox__icon::after {
@@ -26,9 +26,17 @@
 }
 
 ._e_checkbox__label {
+  margin-top: 2px;
   padding-left: var(--S8);
   font: var(--Body1);
   color: var(--N800);
+}
+
+._e_checkbox__desc {
+  display: block;
+  margin-top: 2px;
+  font: var(--Body2);
+  color: var(--N600);
 }
 
 ._e_checkbox__icon {
