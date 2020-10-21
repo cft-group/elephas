@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/cft-group/elephas/compare/v1.1.1...v1.2.0) (2020-10-21)
+
+
+### Features
+
+* **checkbox:** add description field ([f7c914e](https://github.com/cft-group/elephas/commit/f7c914e628ea3f0192ad36275fd3005626635471))
+* **radio:** add radio description field ([a9dae96](https://github.com/cft-group/elephas/commit/a9dae96e5dcb135fd8fed61b0c291c2d2a8ceefd))
+
+
+
+
+
 ## [1.1.1](https://github.com/cft-group/elephas/compare/v1.1.0...v1.1.1) (2020-10-06)
 
 
