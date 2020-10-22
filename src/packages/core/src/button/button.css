@@ -1,4 +1,6 @@
 ._e_button {
+  display: inline-flex;
+  align-items: center;
   border-radius: var(--S4);
   cursor: pointer;
   height: var(--S40);
