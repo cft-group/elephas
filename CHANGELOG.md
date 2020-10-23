@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/cft-group/elephas/compare/v1.2.0...v1.2.1) (2020-10-23)
+
+
+### Bug Fixes
+
+* **button:** support ._e_button on <a> element ([cf6a732](https://github.com/cft-group/elephas/commit/cf6a7321db4669277b577a9a037257a9c7be3f15))
+* **snackbar:** add left margin to timer ([dbedb08](https://github.com/cft-group/elephas/commit/dbedb086a6ddef1504c4fe8cfac77511998ad118))
+
+
+
+
+
 # [1.2.0](https://github.com/cft-group/elephas/compare/v1.1.1...v1.2.0) (2020-10-21)
 
 
