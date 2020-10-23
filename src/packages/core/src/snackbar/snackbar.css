@@ -24,6 +24,7 @@
 }
 
 ._e_snackbar__timer {
+  margin-left: var(--S4);
   color: var(--N200);
 }
 
