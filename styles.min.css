@@ -1929,6 +1929,8 @@
   color: var(--N600);
 }
 ._e_button {
+  display: inline-flex;
+  align-items: center;
   border-radius: 4px;
   border-radius: var(--S4);
   cursor: pointer;
@@ -2943,6 +2945,8 @@
 }
 
 ._e_snackbar__timer {
+  margin-left: 4px;
+  margin-left: var(--S4);
   color: #BABBC0;
   color: var(--N200);
 }
