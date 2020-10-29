@@ -31,6 +31,7 @@
 ._e_snackbar__button._e_button {
   background-color: var(--N600);
   color: var(--N0);
+  font-feature-settings: "tnum";
 
   &:hover {
     background-color: var(--N700);
