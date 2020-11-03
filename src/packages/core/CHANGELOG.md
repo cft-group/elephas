@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.2](https://github.com/cft-group/elephas/compare/v1.2.1...v1.2.2) (2020-11-03)
+
+
+### Bug Fixes
+
+* **datalist:** fix border-radius on a single line datalist ([7c695a1](https://github.com/cft-group/elephas/commit/7c695a18f630ab41b2e5b4aa773ee1477ddc2609))
+* **snackbar:** move countdown inside button ([fc15291](https://github.com/cft-group/elephas/commit/fc152918819c0ae42bfe67b884a4583948791f7a))
+* **table:** add border-radius to last row of sections ([0974bb3](https://github.com/cft-group/elephas/commit/0974bb3e586acb026f46786c73b50413fce1446d))
+* **textarea:** add label background for it not to blend with text overflow ([931a37b](https://github.com/cft-group/elephas/commit/931a37bfaa1133ed7a4aa6fb5d419053191c3cb1))
+
+
+
+
+
 ## [1.2.1](https://github.com/cft-group/elephas/compare/v1.2.0...v1.2.1) (2020-10-23)
 
 
