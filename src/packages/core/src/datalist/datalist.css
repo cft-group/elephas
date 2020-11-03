@@ -22,6 +22,10 @@
     border-radius: 0 0 var(--S4) var(--S4);
   }
 
+  &:first-of-type:last-of-type {
+    border-radius: var(--S4);
+  }
+
   &._e_datalist__line_warning {
     background-color: var(--O50);
   }
