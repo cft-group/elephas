@@ -67,6 +67,20 @@
   }
 }
 
+/*
+  If table has sections and has no footer, add border-radius
+  to bottom rows.
+*/
+
+._e_table > ._e_table__sections:last-child {
+  ._e_table__section:first-child ._e_tbody__row:last-child ._e_tbody__cell:first-child {
+    border-bottom-left-radius: var(--S4);
+  }
+  ._e_table__section:last-child ._e_tbody__row:last-child ._e_tbody__cell:last-child {
+    border-bottom-right-radius: var(--S4);
+  }
+}
+
 ._e_table__section_fixed {
   & ._e_thead__cell:last-child {
     border-right: 1px solid var(--N200);
@@ -120,6 +134,17 @@
     opacity: 0;
     transition: opacity 100ms ease-out;
     pointer-events: none;
+  }
+}
+
+/*
+  If there's no footer, sections shadow should
+  have bottom right border-radius.
+*/
+
+._e_table__sections_shadow:last-child {
+  &::after {
+    border-bottom-right-radius: var(--S4);
   }
 }
 
