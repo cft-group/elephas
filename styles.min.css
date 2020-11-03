@@ -697,23 +697,28 @@
 }
 
 ._e_datalist__line:nth-of-type(2n+1) {
-      background-color: #EEEEEF;
-      background-color: var(--N50);
+    background-color: #EEEEEF;
+    background-color: var(--N50);
   }
 
 ._e_datalist__line:nth-of-type(2n) {
-      background-color: #F5F5F6;
-      background-color: var(--N10);
+    background-color: #F5F5F6;
+    background-color: var(--N10);
   }
 
 ._e_datalist__line:first-of-type {
-      border-radius: 4px 4px 0 0;
-      border-radius: var(--S4) var(--S4) 0 0;
+    border-radius: 4px 4px 0 0;
+    border-radius: var(--S4) var(--S4) 0 0;
   }
 
 ._e_datalist__line:last-of-type {
-      border-radius: 0 0 4px 4px;
-      border-radius: 0 0 var(--S4) var(--S4);
+    border-radius: 0 0 4px 4px;
+    border-radius: 0 0 var(--S4) var(--S4);
+  }
+
+._e_datalist__line:first-of-type:last-of-type {
+    border-radius: 4px;
+    border-radius: var(--S4);
   }
 
 ._e_datalist__line._e_datalist__line_warning {
@@ -1776,6 +1781,21 @@
       border-top-right-radius: var(--S4);
     }
 
+/*
+  If table has sections and has no footer, add border-radius
+  to bottom rows.
+*/
+
+._e_table > ._e_table__sections:last-child ._e_table__section:first-child ._e_tbody__row:last-child ._e_tbody__cell:first-child {
+    border-bottom-left-radius: 4px;
+    border-bottom-left-radius: var(--S4);
+  }
+
+._e_table > ._e_table__sections:last-child ._e_table__section:last-child ._e_tbody__row:last-child ._e_tbody__cell:last-child {
+    border-bottom-right-radius: 4px;
+    border-bottom-right-radius: var(--S4);
+  }
+
 ._e_table__section_fixed ._e_thead__cell:last-child {
     border-right: 1px solid #BABBC0;
     border-right: 1px solid var(--N200);
@@ -1829,6 +1849,16 @@
     opacity: 0;
     transition: opacity 100ms ease-out;
     pointer-events: none;
+  }
+
+/*
+  If there's no footer, sections shadow should
+  have bottom right border-radius.
+*/
+
+._e_table__sections_shadow:last-child::after {
+    border-bottom-right-radius: 4px;
+    border-bottom-right-radius: var(--S4);
   }
 
 ._e_table__sections_shadow_on::after {
@@ -2779,8 +2809,43 @@
       fill: var(--N600);
     }
 ._e_textarea {
-  resize: vertical;
+  resize: vertical
 }
+._e_textarea ._e_input__label {
+    background-color: #EEEEEF;
+    background-color: var(--N50);
+    transition:
+      background-color 50ms ease-out,
+      transform 200ms cubic-bezier(0, 0, 0.2, 1)
+  }
+._e_textarea ._e_input__label:after {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      content: "";
+      display: block;
+      width: 100%;
+      height: 3px;
+      background-color: #EEEEEF;
+      background-color: var(--N50);
+      transition: background-color 50ms ease-out;
+    }
+._e_textarea ._e_input__field:hover ._e_input__label {
+    background-color: #DCDDE0;
+    background-color: var(--N100)
+  }
+._e_textarea ._e_input__field:hover ._e_input__label:after {
+      background-color: #DCDDE0;
+      background-color: var(--N100);
+    }
+._e_textarea ._e_input__control:focus ~ ._e_input__label {
+    background-color: #EEEEEF;
+    background-color: var(--N50)
+  }
+._e_textarea ._e_input__control:focus ~ ._e_input__label:after {
+      background-color: #EEEEEF;
+      background-color: var(--N50);
+    }
 ._e_autocomplete { }
 
 ._e_autocomplete_extras {
@@ -2955,7 +3020,8 @@
   background-color: #646572;
   background-color: var(--N600);
   color: #FFFFFF;
-  color: var(--N0)
+  color: var(--N0);
+  font-feature-settings: "tnum"
 }
 
 ._e_snackbar__button._e_button:hover {
