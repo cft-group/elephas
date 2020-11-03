@@ -7,19 +7,19 @@
   border-bottom: 1px solid var(--N0);
 
   &:nth-of-type(2n+1) {
-      background-color: var(--N50);
+    background-color: var(--N50);
   }
 
   &:nth-of-type(2n) {
-      background-color: var(--N10);
+    background-color: var(--N10);
   }
 
   &:first-of-type {
-      border-radius: var(--S4) var(--S4) 0 0;
+    border-radius: var(--S4) var(--S4) 0 0;
   }
 
   &:last-of-type {
-      border-radius: 0 0 var(--S4) var(--S4);
+    border-radius: 0 0 var(--S4) var(--S4);
   }
 
   &._e_datalist__line_warning {
