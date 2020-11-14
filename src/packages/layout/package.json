@@ -18,8 +18,9 @@
   },
   "scripts": {
     "prepare-dist": "mkdir -p dist && cp package.json dist && cp ../../../LICENSE.md dist",
-    "postcss": "mkdir -p dist && find src ../../common -name '*.css' | xargs cat | postcss > dist/styles.min.css",
-    "prepublishOnly": "yarn prepare-dist && yarn postcss"
+    "postcss": "mkdir -p dist && find src ../../common -name '*.css' | xargs cat | postcss > dist/styles.css",
+    "postcss:minify": "mkdir -p dist && find src ../../common -name '*.css' | xargs cat | postcss --env=minify > dist/styles.min.css",
+    "prepublishOnly": "yarn prepare-dist && yarn postcss && yarn postcss:minify"
   },
   "publishConfig": {
     "access": "public"
