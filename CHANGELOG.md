@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/cft-group/elephas/compare/v1.2.2...v1.3.0) (2020-11-14)
+
+
+### Features
+
+* publish non-minified css ([b537c8f](https://github.com/cft-group/elephas/commit/b537c8fde6a6ab8b5918b2f2312a1333bbfd5ad3))
+
+
+
+
+
 ## [1.2.2](https://github.com/cft-group/elephas/compare/v1.2.1...v1.2.2) (2020-11-03)
 
 
