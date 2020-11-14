@@ -1,6 +1,6 @@
 let reset = require('../common/reset.js');
 
-module.exports = () => ({
+module.exports = (ctx) => ({
   plugins: {
     'postcss-nesting': {},
     'postcss-autoreset': {
@@ -14,6 +14,6 @@ module.exports = () => ({
     'postcss-custom-properties': {
       importFrom: '../../common/variables.css',
     },
-    cssnano: {},
+    cssnano: ctx.env === 'minify' ? {} : false,
   },
 });
