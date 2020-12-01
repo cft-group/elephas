@@ -45,10 +45,12 @@ jobs:
         run: |
           ~/.yarn/bin/lerna bootstrap
           ~/.yarn/bin/lerna run postcss
+          ~/.yarn/bin/lerna run postcss:minify
       - name: Get css files
         run: |
           mkdir styles
           cd src/packages
+          for d in */ ; do if [ ${d%?} != "common" ]; then cp ${d}dist/styles.css ../../styles/${d%?}.css; fi; done
           for d in */ ; do if [ ${d%?} != "common" ]; then cp ${d}dist/styles.min.css ../../styles/${d%?}.min.css; fi; done
           cd ../..
       - name: Zip files
