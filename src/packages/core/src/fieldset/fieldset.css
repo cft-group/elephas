@@ -1,5 +1,6 @@
 ._e_fieldset {
-  display: block;
+  display: grid;
+  justify-items: start;
   
   & > ._e_checkbox, > ._e_radio {
     margin-bottom: var(--S12);
@@ -7,6 +8,13 @@
     &:last-child {
       margin-bottom: 0;
     }
+  }
+}
+
+/* IE11 only */
+@media screen and (-ms-high-contrast: none) {
+  ._e_fieldset {
+    display: block;
   }
 }
 
