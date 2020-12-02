@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/cft-group/elephas/compare/v1.3.0...v1.4.0) (2020-12-02)
+
+
+### Features
+
+* add :focus and :active styles for clickable items ([20c9f33](https://github.com/cft-group/elephas/commit/20c9f331b26e3f31630cb6916d0333ea2bda552f))
+
+
+
+
+
 # [1.3.0](https://github.com/cft-group/elephas/compare/v1.2.2...v1.3.0) (2020-11-14)
 
 
