@@ -1,5 +1,5 @@
 ._e_radio {
-  display: flex;
+  display: inline-flex;
   align-items: flex-start;
   cursor: pointer;
 
@@ -9,6 +9,13 @@
 
   &:active ._e_radio__icon::after {
     opacity: 1;
+  }
+}
+
+/* IE11 only */
+@media screen and (-ms-high-contrast: none) {
+  ._e_radio {
+    display: flex;
   }
 }
 
