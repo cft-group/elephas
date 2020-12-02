@@ -19,12 +19,12 @@
   --C12: 656px;
 
   /* Fonts */
-  --H1: normal normal 600 24px/28px "Inter", sans-serif;
-  --H2: normal normal 600 20px/24px "Inter", sans-serif;
-  --H3: normal normal 600 16px/20px "Inter", sans-serif;
-  --Subhead: normal normal 500 14px/20px "Inter", sans-serif;
-  --Body1: normal normal 400 14px/20px "Inter", sans-serif;
-  --Body2: normal normal 400 12px/16px "Inter", sans-serif;
+  --H1: normal normal 600 24px/28px "IBM Plex Sans", sans-serif;
+  --H2: normal normal 600 20px/24px "IBM Plex Sans", sans-serif;
+  --H3: normal normal 600 16px/20px "IBM Plex Sans", sans-serif;
+  --Subhead: normal normal 500 14px/20px "IBM Plex Sans", sans-serif;
+  --Body1: normal normal 400 14px/20px "IBM Plex Sans", sans-serif;
+  --Body2: normal normal 400 12px/16px "IBM Plex Sans", sans-serif;
 
   /* Colors - Neutral */
   --N0: #FFFFFF;
