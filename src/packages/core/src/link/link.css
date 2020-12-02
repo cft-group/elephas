@@ -5,4 +5,12 @@
   &:hover {
     color: var(--B500);
   }
+
+  &:focus {
+    color: var(--B500);
+  }
+
+  &:active {
+    color: var(--B600);
+  }
 }

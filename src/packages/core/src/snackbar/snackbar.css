@@ -37,4 +37,14 @@
     background-color: var(--N700);
     color: var(--N0);
   }
+
+  &:focus {
+    background-color: var(--N700);
+    color: var(--N0);
+  }
+
+  &:active {
+    background-color: var(--N600);
+    color: var(--N0);
+  }
 }

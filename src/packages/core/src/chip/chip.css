@@ -10,6 +10,14 @@
   &:hover {
     background-color: var(--N100);
   }
+
+  &:focus {
+    background-color: var(--N100);
+  }
+
+  &:active {
+    background-color: var(--B50);
+  }
 }
 
 ._e_chip_selected {
@@ -17,6 +25,14 @@
 
   &:hover {
     background-color: var(--B100);
+  }
+
+  &:focus {
+    background-color: var(--B100);
+  }
+
+  &:active {
+    background-color: var(--N10);
   }
 
   & ._e_chip__check {

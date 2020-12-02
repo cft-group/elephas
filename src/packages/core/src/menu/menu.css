@@ -22,4 +22,12 @@
   &:hover {
     background-color: var(--N50);
   }
+
+  &:focus {
+    background-color: var(--N50);
+  }
+
+  &:active {
+    background-color: var(--N100);
+  }
 }

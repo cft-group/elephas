@@ -60,6 +60,16 @@
     border-color: var(--B400);
     background-color: var(--B50);
   }
+
+  &:focus {
+    border-color: var(--B400);
+    background-color: var(--B50);
+  }
+
+  &:active {
+    border-color: var(--B500);
+    background-color: var(--B100);
+  }
 }
 
 ._e_upload__control {
@@ -144,6 +154,14 @@
 
   &:hover svg {
     fill: var(--N600);
+  }
+
+  &:focus svg {
+    fill: var(--N600);
+  }
+
+  &:active svg {
+    fill: var(--N700);
   }
 }
 

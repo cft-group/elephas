@@ -68,6 +68,20 @@
       color: var(--N800);
     }
   }
+  &:focus {
+    background-color: var(--N0);
+
+    & ._e_sidebar-item__text {
+      color: var(--N800);
+    }
+  }
+  &:active {
+    background-color: var(--N10);
+
+    & ._e_sidebar-item__text {
+      color: var(--N800);
+    }
+  }
 }
 
 ._e_sidebar-item_active {
@@ -96,6 +110,16 @@
     &:hover {
       & svg {
         fill: var(--B500);
+      }
+    }
+    &:focus {
+      & svg {
+        fill: var(--B500);
+      }
+    }
+    &:active {
+      & svg {
+        fill: var(--B600);
       }
     }
   }

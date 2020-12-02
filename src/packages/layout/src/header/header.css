@@ -40,14 +40,34 @@
   }
 
   &:hover {
-    background-color: var(--N1000);
+    background-color: var(--N900);
 
     & ._e_header-action__icon svg {
-      fill: var(--N0);
+      fill: var(--N50);
+    }
+    
+    & > ._e_header-action__tooltip {
+      display: flex;
+    }
+  }
+
+  &:focus {
+    background-color: var(--N900);
+
+    & ._e_header-action__icon svg {
+      fill: var(--N50);
     }
 
     & > ._e_header-action__tooltip {
       display: flex;
+    }
+  }
+
+  &:active {
+    background-color: var(--N1000);
+
+    & ._e_header-action__icon svg {
+      fill: var(--N0);
     }
   }
 }

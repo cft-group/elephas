@@ -14,6 +14,12 @@
     &:hover {
       background-color: var(--R600);
     }
+    &:focus {
+      background-color: var(--R600);
+    }
+    &:active {
+      background-color: var(--R700);
+    }
   }
 }
 
@@ -23,6 +29,12 @@
   & ._e_banner__close {
     &:hover {
       background-color: var(--O600);
+    }
+    &:focus {
+      background-color: var(--O600);
+    }
+    &:active {
+      background-color: var(--O700);
     }
   }
 }
