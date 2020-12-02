@@ -12,6 +12,14 @@
   &:hover {
     background-color: var(--B50);
   }
+
+  &:focus {
+    background-color: var(--B50);
+  }
+
+  &:active {
+    background-color: var(--B100);
+  }
 }
 
 ._e_button_appearance_primary {
@@ -21,6 +29,14 @@
   &:hover {
     background-color: var(--B500);
   }
+
+  &:focus {
+    background-color: var(--B500);
+  }
+
+  &:active {
+    background-color: var(--B600);
+  }
 }
 
 ._e_button_appearance_danger {
@@ -29,6 +45,14 @@
 
   &:hover {
     background-color: var(--R600);
+  }
+
+  &:focus {
+    background-color: var(--R600);
+  }
+
+  &:active {
+    background-color: var(--R700);
   }
 }
 

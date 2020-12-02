@@ -14,6 +14,14 @@
   &:hover {
     background-color: var(--N10);
   }
+
+  &:focus {
+    background-color: var(--N10);
+  }
+
+  &:active {
+    background-color: var(--N50);
+  }
 }
 
 ._e_tabs__item_selected {

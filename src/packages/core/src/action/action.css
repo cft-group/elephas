@@ -6,10 +6,28 @@
 
   &:hover {
     & ._e_action__icon svg {
-      fill: var(--B400);
+      fill: var(--B500);
     }
     & ._e_action__text {
-      color: var(--B400);
+      color: var(--B500);
+    }
+  }
+
+  &:focus {
+    & ._e_action__icon svg {
+      fill: var(--B500);
+    }
+    & ._e_action__text {
+      color: var(--B500);
+    }
+  }
+
+  &:active {
+    & ._e_action__icon svg {
+      fill: var(--B600);
+    }
+    & ._e_action__text {
+      color: var(--B600);
     }
   }
 }
