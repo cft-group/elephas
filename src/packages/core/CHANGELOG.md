@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.1](https://github.com/cft-group/elephas/compare/v1.4.0...v1.4.1) (2020-12-02)
+
+
+### Bug Fixes
+
+* checkbox and radio are now inline-flex ([70024f5](https://github.com/cft-group/elephas/commit/70024f5a311845502e331ed5a7ec581a0048e1ac))
+
+
+
+
+
 # [1.4.0](https://github.com/cft-group/elephas/compare/v1.3.0...v1.4.0) (2020-12-02)
 
 
