@@ -12,13 +12,6 @@
   }
 }
 
-/* IE11 only */
-@media screen and (-ms-high-contrast: none) {
-  ._e_checkbox {
-    display: flex;
-  }
-}
-
 ._e_checkbox_disabled {
   cursor: default;
   pointer-events: none;
