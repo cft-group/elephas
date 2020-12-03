@@ -12,13 +12,6 @@
   }
 }
 
-/* IE11 only */
-@media screen and (-ms-high-contrast: none) {
-  ._e_radio {
-    display: flex;
-  }
-}
-
 ._e_radio_disabled {
   cursor: default;
   pointer-events: none;

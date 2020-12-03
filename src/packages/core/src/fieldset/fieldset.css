@@ -1,20 +1,14 @@
 ._e_fieldset {
-  display: grid;
-  justify-items: start;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
   & > ._e_checkbox, > ._e_radio {
     margin-bottom: var(--S12);
 
     &:last-child {
       margin-bottom: 0;
     }
-  }
-}
-
-/* IE11 only */
-@media screen and (-ms-high-contrast: none) {
-  ._e_fieldset {
-    display: block;
   }
 }
 
