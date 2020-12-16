@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.3](https://github.com/cft-group/elephas/compare/v1.4.2...v1.4.3) (2020-12-16)
+
+
+### Bug Fixes
+
+* **dropdown:** add styles for active and selected items ([78c6932](https://github.com/cft-group/elephas/commit/78c6932457a2a95371c265d96dd47a9830c81924))
+
+
+
+
+
 ## [1.4.2](https://github.com/cft-group/elephas/compare/v1.4.1...v1.4.2) (2020-12-03)
 
 
