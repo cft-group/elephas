@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.4](https://github.com/cft-group/elephas/compare/v1.4.3...v1.4.4) (2020-12-24)
+
+
+### Bug Fixes
+
+* **dropdown:** add readonly attribute to remove blinking cursor ([957c5b2](https://github.com/cft-group/elephas/commit/957c5b24b0c660088a394930598e31aa573d0520))
+* **input:** fix disabled input text color ([a35d841](https://github.com/cft-group/elephas/commit/a35d8411cd87c39ce4292b34a5c6e30584cd1f5b))
+* **select:** set correct arrow color for disabled and readonly states ([0dfd3ba](https://github.com/cft-group/elephas/commit/0dfd3ba76f565610a1b8c8b3464b00e487d15f57))
+
+
+
+
+
 ## [1.4.3](https://github.com/cft-group/elephas/compare/v1.4.2...v1.4.3) (2020-12-16)
 
 
