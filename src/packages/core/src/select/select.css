@@ -35,3 +35,16 @@
     }
   }
 }
+
+._e_input_appearance_readonly {
+  & ._e_select__arrow {
+    display: none;
+  }
+}
+
+
+._e_input_appearance_disabled {
+  & ._e_select__arrow svg {
+    fill: var(--N100);
+  }
+}
