@@ -204,7 +204,8 @@
 
   & ._e_input__control {
     color: var(--N200);
-    -webkit-text-fill-color: currentcolor;
+    -webkit-text-fill-color: var(--N200);
+    opacity: 1;
   }
 
   & ._e_input__control:focus {
