@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/cft-group/elephas/compare/v1.4.4...v1.5.0) (2020-12-29)
+
+
+### Features
+
+* **input:** add labelless input ([3a7ec3b](https://github.com/cft-group/elephas/commit/3a7ec3b17464aa53549fe4bc7e53d6e7156719b4))
+
+
+
+
+
 ## [1.4.4](https://github.com/cft-group/elephas/compare/v1.4.3...v1.4.4) (2020-12-24)
 
 
