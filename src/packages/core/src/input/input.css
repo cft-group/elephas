@@ -4,6 +4,25 @@
   align-items: flex-start;
 }
 
+._e_input_labelless {
+  & ._e_input__label {
+    display: none;
+  }
+
+  & ._e_input__control {
+    padding: var(--S16) var(--S12) var(--S12);
+
+    &::placeholder {
+      font: var(--Body1);
+      color: var(--N600);
+    }
+  }
+
+  & ._e_input__icon {
+    top: var(--S12);
+  }
+}
+
 ._e_input__field {
   position: relative;
   display: flex;

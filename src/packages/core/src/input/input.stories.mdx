@@ -2,6 +2,7 @@ import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
 import pretty from 'pretty';
 
 import input from './input.html';
+import input_labelless from './input_labelless.html';
 
 <Meta title='Core/Input' />
 
@@ -10,5 +11,11 @@ import input from './input.html';
 <Preview>
   <Story name="default" height="480px" parameters={{ docs: { source: { code: pretty(input) } } }}>
     { () => input }
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="labelless" height="480px" parameters={{ docs: { source: { code: pretty(input_labelless) } } }}>
+    { () => input_labelless }
   </Story>
 </Preview>
