@@ -14,6 +14,14 @@
       }
     }
   }
+
+  &._e_input_focused ._e_input__icon ._e_select__arrow {
+    transform: rotate(180deg);
+
+    & svg {
+      fill: var(--B400);
+    }
+  }
 }
 
 ._e_select__arrow {

@@ -2,6 +2,10 @@
   & ._e_input__control:focus ~ ._e_dropdown__card {
     display: block;
   }
+  
+  &._e_input_focused ._e_dropdown__card {
+    display: block;
+  }
 }
 
 ._e_dropdown__card {
