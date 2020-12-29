@@ -2,6 +2,10 @@
   & ._e_input__control:focus ~ ._e_datepicker__box {
     display: grid;
   }
+  
+  &._e_input_focused ._e_datepicker__box {
+    display: grid;
+  }
 }
 
 ._e_datepicker__box {

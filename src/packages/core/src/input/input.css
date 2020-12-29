@@ -4,6 +4,22 @@
   align-items: flex-start;
 }
 
+._e_input_focused {
+  & ._e_input__label {
+    color: var(--B400);
+    transform: none;
+  }
+
+  & ._e_input__background {
+    background-color: var(--N50);
+  }
+
+  & ._e_input__line {
+    height: 2px;
+    background-color: var(--B400);
+  }
+}
+
 ._e_input_labelless {
   & ._e_input__label {
     display: none;
