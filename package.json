@@ -22,7 +22,9 @@
     "postcss-nesting": "^7.0.1",
     "pretty": "^2.0.0",
     "react": "^16.13.1",
-    "react-is": "^16.13.1"
+    "react-dom": "^16.6.0",
+    "react-is": "^16.13.1",
+    "webpack": "^5.11.1"
   },
   "scripts": {
     "storybook:build": "build-storybook -c .storybook -o build --docs -s ./dist",
@@ -40,5 +42,6 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
-  }
+  },
+  "dependencies": {}
 }
