@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/cft-group/elephas/compare/v1.5.0...v1.6.0) (2020-12-29)
+
+
+### Features
+
+* add css classes to control input focus state with js ([03e3476](https://github.com/cft-group/elephas/commit/03e3476cebdc1faeaafca67b1836e1c6ffd765f0))
+
+
+
+
+
 # [1.5.0](https://github.com/cft-group/elephas/compare/v1.4.4...v1.5.0) (2020-12-29)
 
 

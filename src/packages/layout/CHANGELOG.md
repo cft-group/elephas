@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/cft-group/elephas/compare/v1.5.0...v1.6.0) (2020-12-29)
+
+**Note:** Version bump only for package @elephas/layout
+
+
+
+
+
 # [1.5.0](https://github.com/cft-group/elephas/compare/v1.4.4...v1.5.0) (2020-12-29)
 
 **Note:** Version bump only for package @elephas/layout
