@@ -25,6 +25,9 @@
   --Subhead: normal normal 500 14px/20px "Inter", sans-serif;
   --Body1: normal normal 400 14px/20px "Inter", sans-serif;
   --Body2: normal normal 400 12px/16px "Inter", sans-serif;
+  --Body2Medium: normal normal 500 12px/16px "Inter", sans-serif;
+  --Footnote: normal normal 500 10px/14px "Inter", sans-serif;
+  --Tnum: "tnum" 1;
 
   /* Colors - Neutral */
   --N0: #FFFFFF;
