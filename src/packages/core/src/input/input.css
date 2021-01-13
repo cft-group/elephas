@@ -100,6 +100,36 @@
   z-index: 2;
 }
 
+._e_input__action {
+  display: inline-block;
+  width: var(--S24);
+  height: var(--S24);
+  margin-left: var(--S8);
+  cursor: pointer;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  & svg {
+    width: var(--S24);
+    height: var(--S24);
+    fill: var(--N600);
+  }
+
+  &:hover {
+    & svg {
+      fill: var(--N700);
+    }
+  }
+
+  &:active {
+    & svg {
+      fill: var(--N800);
+    }
+  }
+}
+
 ._e_input__icon_passive {
   pointer-events: none;
 }
