@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.7.0](https://github.com/cft-group/elephas/compare/v1.6.0...v1.7.0) (2021-01-14)
+
+
+### Features
+
+* support primary color customization ([df6305a](https://github.com/cft-group/elephas/commit/df6305acdbfc2d99111cbb2d9c70c10196ae7b53))
+
+
+
+
+
 # [1.6.0](https://github.com/cft-group/elephas/compare/v1.5.0...v1.6.0) (2020-12-29)
 
 **Note:** Version bump only for package @elephas/layout

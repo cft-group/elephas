@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.7.0](https://github.com/cft-group/elephas/compare/v1.6.0...v1.7.0) (2021-01-14)
+
+
+### Features
+
+* support primary color customization ([df6305a](https://github.com/cft-group/elephas/commit/df6305acdbfc2d99111cbb2d9c70c10196ae7b53))
+* **input:** add styles for icon actions ([ea64c8d](https://github.com/cft-group/elephas/commit/ea64c8d6a99aa99d6fd1774095f335d724cdefd7))
+* **menu:** add large menu with icons ([bbe2008](https://github.com/cft-group/elephas/commit/bbe2008e6783ff1f00f89efb08dead34fd7fa5a1))
+* **toggle-button:** add ToggleButton component ([2df7ae6](https://github.com/cft-group/elephas/commit/2df7ae61f48c2d335cc6cfe575db60b1b7085b86))
+
+
+
+
+
 # [1.6.0](https://github.com/cft-group/elephas/compare/v1.5.0...v1.6.0) (2020-12-29)
 
 
