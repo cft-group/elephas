@@ -52,7 +52,7 @@
     background-color: var(--N50);
 
     & svg {
-      fill: var(--B400);
+      fill: var(--Primary);
     }
   }
 }
@@ -104,9 +104,9 @@
 
 ._e_dpcal__date_selected {
   color: var(--N0);
-  background-color: var(--B400);
+  background-color: var(--Primary);
 
   &:hover {
-    background-color: var(--B500);
+    background-color: var(--PrimaryHover);
   }
 }

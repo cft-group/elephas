@@ -88,7 +88,7 @@
   background-color: var(--N0);
 
   & ._e_sidebar-item__icon svg {
-    fill: var(--B400);
+    fill: var(--Primary);
   }
 
   & ._e_sidebar-item__text {
@@ -104,22 +104,22 @@
     cursor: pointer;
   
     & svg {
-      fill: var(--B400);
+      fill: var(--Primary);
     }
 
     &:hover {
       & svg {
-        fill: var(--B500);
+        fill: var(--PrimaryHover);
       }
     }
     &:focus {
       & svg {
-        fill: var(--B500);
+        fill: var(--PrimaryHover);
       }
     }
     &:active {
       & svg {
-        fill: var(--B600);
+        fill: var(--PrimaryActive);
       }
     }
   }

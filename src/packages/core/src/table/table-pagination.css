@@ -41,7 +41,7 @@
 
   &:hover {
     & svg {
-      fill: var(--B400);
+      fill: var(--Primary);
     }
 
     &::after {

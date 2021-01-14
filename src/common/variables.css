@@ -29,6 +29,13 @@
   --Footnote: normal normal 500 10px/14px "Inter", sans-serif;
   --Tnum: "tnum" 1;
 
+  /* Colors - Primary Defaults */
+  --Primary: var(--B400);
+  --PrimaryHover: var(--B500);
+  --PrimaryActive: var(--B600);
+  --PrimaryLight: var(--B50);
+  --PrimaryLightHover: var(--B100);
+
   /* Colors - Neutral */
   --N0: #FFFFFF;
   --N10: #F5F5F6;

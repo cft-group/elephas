@@ -6,7 +6,7 @@
 
 ._e_input_focused {
   & ._e_input__label {
-    color: var(--B400);
+    color: var(--Primary);
     transform: none;
   }
 
@@ -16,7 +16,7 @@
 
   & ._e_input__line {
     height: 2px;
-    background-color: var(--B400);
+    background-color: var(--Primary);
   }
 }
 
@@ -154,7 +154,7 @@
 
   &:focus {
     & ~ ._e_input__label {
-      color: var(--B400);
+      color: var(--Primary);
       transform: none;
     }
 
@@ -164,7 +164,7 @@
 
     & ~ ._e_input__line {
       height: 2px;
-      background-color: var(--B400);
+      background-color: var(--Primary);
     }
   }
 

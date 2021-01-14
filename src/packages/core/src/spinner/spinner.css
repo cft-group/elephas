@@ -29,7 +29,7 @@
   width: var(--S4);
   height: var(--S12);
   border-radius: 2px;
-  background-color: var(--B400);
+  background-color: var(--Primary);
 }
 
 ._e_spinner div:nth-child(1) {

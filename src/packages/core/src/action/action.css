@@ -6,28 +6,28 @@
 
   &:hover {
     & ._e_action__icon svg {
-      fill: var(--B500);
+      fill: var(--PrimaryHover);
     }
     & ._e_action__text {
-      color: var(--B500);
+      color: var(--PrimaryHover);
     }
   }
 
   &:focus {
     & ._e_action__icon svg {
-      fill: var(--B500);
+      fill: var(--PrimaryHover);
     }
     & ._e_action__text {
-      color: var(--B500);
+      color: var(--PrimaryHover);
     }
   }
 
   &:active {
     & ._e_action__icon svg {
-      fill: var(--B600);
+      fill: var(--PrimaryActive);
     }
     & ._e_action__text {
-      color: var(--B600);
+      color: var(--PrimaryActive);
     }
   }
 }

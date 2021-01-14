@@ -196,7 +196,7 @@
 
 ._e_tbody__row_selected:nth-child(n) {
   & ._e_tbody__cell {
-    background-color: var(--B50);
+    background-color: var(--PrimaryLight);
   }
 }
 

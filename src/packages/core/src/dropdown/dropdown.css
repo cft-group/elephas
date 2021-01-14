@@ -43,10 +43,10 @@
 }
 
 ._e_dropdown__item_selected {
-  background-color: var(--B50);
+  background-color: var(--PrimaryLight);
 
   &:hover {
-    background-color: var(--B100);
+    background-color: var(--PrimaryLightHover);
   }
 
   &::after {
@@ -62,5 +62,5 @@
 }
 
 ._e_dropdown__item_active._e_dropdown__item_selected {
-  background-color: var(--B100);
+  background-color: var(--PrimaryLightHover);
 }

@@ -4,17 +4,17 @@
 
 ._e_breadcrumbs__item {
   font: var(--Body1);
-  color: var(--B400);
+  color: var(--Primary);
   cursor: pointer;
 
   &:hover {
-    color: var(--B500);
+    color: var(--PrimaryHover);
   }
   &:focus {
-    color: var(--B500);
+    color: var(--PrimaryHover);
   }
   &:active {
-    color: var(--B600);
+    color: var(--PrimaryActive);
   }
 
   &::after {
