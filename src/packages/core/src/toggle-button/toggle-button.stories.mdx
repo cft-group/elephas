@@ -1,0 +1,14 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import toggleButton from './toggle-button.html';
+
+<Meta title='Core/ToggleButton' />
+
+# ToggleButton
+
+<Preview>
+  <Story name="default" height="160px" parameters={{ docs: { source: { code: pretty(toggleButton) } } }}>
+    { () => toggleButton }
+  </Story>
+</Preview>
