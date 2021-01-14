@@ -7,35 +7,35 @@
   padding: 0 var(--S16);
   font: var(--Subhead);
   background-color: var(--N50);
-  color: var(--B400);
+  color: var(--Primary);
 
   &:hover {
-    background-color: var(--B50);
+    background-color: var(--PrimaryLight);
   }
 
   &:focus {
-    background-color: var(--B50);
+    background-color: var(--PrimaryLight);
   }
 
   &:active {
-    background-color: var(--B100);
+    background-color: var(--PrimaryLightHover);
   }
 }
 
 ._e_button_appearance_primary {
-  background-color: var(--B400);
+  background-color: var(--Primary);
   color: var(--N0);
 
   &:hover {
-    background-color: var(--B500);
+    background-color: var(--PrimaryHover);
   }
 
   &:focus {
-    background-color: var(--B500);
+    background-color: var(--PrimaryHover);
   }
 
   &:active {
-    background-color: var(--B600);
+    background-color: var(--PrimaryActive);
   }
 }
 

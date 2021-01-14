@@ -10,7 +10,7 @@
       transform: rotate(180deg);
 
       & svg {
-        fill: var(--B400);
+        fill: var(--Primary);
       }
     }
   }
@@ -19,7 +19,7 @@
     transform: rotate(180deg);
 
     & svg {
-      fill: var(--B400);
+      fill: var(--Primary);
     }
   }
 }

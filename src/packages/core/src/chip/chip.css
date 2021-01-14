@@ -16,19 +16,19 @@
   }
 
   &:active {
-    background-color: var(--B50);
+    background-color: var(--PrimaryLight);
   }
 }
 
 ._e_chip_selected {
-  background-color: var(--B50);
+  background-color: var(--PrimaryLight);
 
   &:hover {
-    background-color: var(--B100);
+    background-color: var(--PrimaryLightHover);
   }
 
   &:focus {
-    background-color: var(--B100);
+    background-color: var(--PrimaryLightHover);
   }
 
   &:active {
@@ -40,7 +40,7 @@
   }
 
   & ._e_chip__text {
-    color: var(--B400);
+    color: var(--Primary);
   }
 }
 
@@ -53,7 +53,7 @@
   & svg {
     width: var(--S20);
     height: var(--S20);
-    fill: var(--B400);
+    fill: var(--Primary);
   }
 }
 

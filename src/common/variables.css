@@ -26,6 +26,13 @@
   --Body1: normal normal 400 14px/20px "Inter", sans-serif;
   --Body2: normal normal 400 12px/16px "Inter", sans-serif;
 
+  /* Colors - Primary Defaults */
+  --Primary: var(--B400);
+  --PrimaryHover: var(--B500);
+  --PrimaryActive: var(--B600);
+  --PrimaryLight: var(--B50);
+  --PrimaryLightHover: var(--B100);
+
   /* Colors - Neutral */
   --N0: #FFFFFF;
   --N10: #F5F5F6;

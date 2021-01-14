@@ -34,8 +34,8 @@
 
 ._e_upload_highlighted {
   & ._e_upload__input {
-    border-color: var(--B400);
-    background-color: var(--B50);
+    border-color: var(--Primary);
+    background-color: var(--PrimaryLight);
   }
 }
 
@@ -57,18 +57,18 @@
   cursor: pointer;
 
   &:hover {
-    border-color: var(--B400);
-    background-color: var(--B50);
+    border-color: var(--Primary);
+    background-color: var(--PrimaryLight);
   }
 
   &:focus {
-    border-color: var(--B400);
-    background-color: var(--B50);
+    border-color: var(--Primary);
+    background-color: var(--PrimaryLight);
   }
 
   &:active {
-    border-color: var(--B500);
-    background-color: var(--B100);
+    border-color: var(--PrimaryHover);
+    background-color: var(--PrimaryLightHover);
   }
 }
 
@@ -78,7 +78,7 @@
 
 ._e_upload__action {
   font: var(--Subhead);
-  color: var(--B400);
+  color: var(--Primary);
 }
 
 ._e_upload__hint {

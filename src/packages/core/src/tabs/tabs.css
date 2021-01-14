@@ -25,6 +25,6 @@
 }
 
 ._e_tabs__item_selected {
-  color: var(--B400);
-  box-shadow: 0 2px 0 0 var(--B400);
+  color: var(--Primary);
+  box-shadow: 0 2px 0 0 var(--Primary);
 }
