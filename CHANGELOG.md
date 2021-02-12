@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/cft-group/elephas/compare/v1.7.0...v1.8.0) (2021-02-12)
+
+
+### Bug Fixes
+
+* **breadcrumbs:** fix passive item :active color ([d5f62ee](https://github.com/cft-group/elephas/commit/d5f62ee7fdec637bc048cebfd4147839a9789d30))
+* **checkbox:** use theme color for checkboxes ([3110744](https://github.com/cft-group/elephas/commit/3110744a8330a61cdb00a6eca7b38157d7cde9a5))
+* **radio:** use theme color for radio buttons ([ced9f09](https://github.com/cft-group/elephas/commit/ced9f0998fe1f00f7ef9a2e5d04d28c2f33dcc3a))
+
+
+### Features
+
+* **modal:** add modal component ([26523e9](https://github.com/cft-group/elephas/commit/26523e9113ea032b447ca875b13dfc9177f838fe))
+* **scrollbar:** add native scrollbar styles ([c1502b4](https://github.com/cft-group/elephas/commit/c1502b423c734aaa27f2ee0599942630d3a55f7c))
+* include common files in core package ([326d8cd](https://github.com/cft-group/elephas/commit/326d8cd7a318410d2cfb0ad35a22361787106128))
+
+
+
+
+
 # [1.7.0](https://github.com/cft-group/elephas/compare/v1.6.0...v1.7.0) (2021-01-14)
 
 
