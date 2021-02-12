@@ -1,0 +1,14 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import modal from './modal.html';
+
+<Meta title='Core/Modal' />
+
+# Modal
+
+<Preview>
+  <Story name="default" height="240px" parameters={{ docs: { source: { code: pretty(modal) } } }}>
+    { () => modal }
+  </Story>
+</Preview>

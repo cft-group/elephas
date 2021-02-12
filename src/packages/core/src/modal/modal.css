@@ -1,0 +1,35 @@
+._e_modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+._e_modal__backdrop {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-color: var(--N800);
+  opacity: 0.64;
+}
+
+._e_modal__window {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  padding: var(--S32);
+  border-radius: var(--S4);
+  background-color: var(--N0);
+}
+
+._e_modal__heading {
+  margin-bottom: var(--S24);
+  font: var(--H1);
+  color: var(--N800);
+}
