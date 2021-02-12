@@ -1,0 +1,14 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import scrollbar from './scrollbar.html';
+
+<Meta title='Core/Scrollbar' />
+
+# Modal
+
+<Preview>
+  <Story name="default" height="240px" parameters={{ docs: { source: { code: pretty(scrollbar) } } }}>
+    { () => scrollbar }
+  </Story>
+</Preview>
