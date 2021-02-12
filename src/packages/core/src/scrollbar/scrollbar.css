@@ -1,0 +1,12 @@
+._e_scrollbar::-webkit-scrollbar {
+  width: var(--S8);
+}
+
+._e_scrollbar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+._e_scrollbar::-webkit-scrollbar-thumb {
+  border-radius: var(--S4);
+  background-color: var(--N200);
+}
