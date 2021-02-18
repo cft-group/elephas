@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.8.1](https://github.com/cft-group/elephas/compare/v1.8.0...v1.8.1) (2021-02-18)
+
+
+### Bug Fixes
+
+* **textarea:** set min-height to avoid collapsing in chrome ([f786d5b](https://github.com/cft-group/elephas/commit/f786d5b224576ef3d615efc27b2a3cabf14b1f31))
+
+
+
+
+
 # [1.8.0](https://github.com/cft-group/elephas/compare/v1.7.0...v1.8.0) (2021-02-12)
 
 
