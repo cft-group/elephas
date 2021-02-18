@@ -27,6 +27,10 @@
       background-color: var(--N100);
     }
   }
+  
+  & ._e_input__control {
+    min-height: calc(var(--S40) + var(--S16));
+  }
 
   & ._e_input__control:focus ~ ._e_input__label {
     background-color: var(--N50);
