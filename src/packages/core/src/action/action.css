@@ -32,6 +32,18 @@
   }
 }
 
+._e_action_disabled {
+  cursor: default;
+  pointer-events: none;
+
+  & ._e_action__icon svg {
+    fill: var(--N100);
+  }
+  & ._e_action__text {
+    color: var(--N200);
+  }
+}
+
 ._e_action__icon {
   width: var(--S24);
   height: var(--S24);
