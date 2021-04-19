@@ -3,9 +3,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "sunday"
-      time: "00:00"
+      interval: "monthly"
     commit-message:
       prefix: "chore"
     open-pull-requests-limit: 10
