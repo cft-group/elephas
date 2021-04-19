@@ -2,8 +2,9 @@ import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
 import pretty from 'pretty';
 
 import table from './table.html';
+import scrollableTable from './scrollable-table.html';
 import advancedTable from './advanced-table.html';
-import './advanced-table.js';
+import './table-scripts.js';
 
 <Meta title='Core/Table' />
 
@@ -12,6 +13,12 @@ import './advanced-table.js';
 <Preview>
   <Story name="default" height="200px" parameters={{ docs: { source: { code: pretty(table) } } }}>
     { () => table }
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="scrollable" height="240px" parameters={{ docs: { source: { code: pretty(scrollableTable) } } }}>
+    { () => scrollableTable }
   </Story>
 </Preview>
 

@@ -19,6 +19,8 @@
   position: relative;
   display: flex;
   overflow: hidden;
+  border-top-left-radius: var(--S4);
+  border-top-right-radius: var(--S4);
 }
 
 /* 
@@ -137,6 +139,25 @@
   }
 }
 
+
+._e_table__sections_left-shadow {
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: var(--S24);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0.0) 100%);
+    z-index: 1;
+    border-top-left-radius: var(--S4);
+    opacity: 0;
+    transition: opacity 100ms ease-out;
+    pointer-events: none;
+  }
+}
+
 /*
   If there's no footer, sections shadow should
   have bottom right border-radius.
@@ -150,6 +171,12 @@
 
 ._e_table__sections_shadow_on {
   &::after {
+    opacity: 1;
+  }
+}
+
+._e_table__section_left-shadow_on {
+  &::before {
     opacity: 1;
   }
 }
