@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.10.0](https://github.com/cft-group/elephas/compare/v1.9.0...v1.10.0) (2021-04-21)
+
+
+### Bug Fixes
+
+* **table:** add scroll shadow to table with one section ([c9ccc55](https://github.com/cft-group/elephas/commit/c9ccc5589594c0d7edbda988423a84c2c9bfa170))
+
+
+### Features
+
+* **info:** add notice appearance ([4fb5ecc](https://github.com/cft-group/elephas/commit/4fb5ecc7045c4073f0a423fe7722ba1d9a6ca680))
+
+
+
+
+
 # [1.9.0](https://github.com/cft-group/elephas/compare/v1.8.1...v1.9.0) (2021-03-11)
 
 
