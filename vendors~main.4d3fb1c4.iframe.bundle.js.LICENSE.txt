@@ -5,31 +5,24 @@ object-assign
 */
 
 /*!
-  Copyright (c) 2017 Jed Watson.
-  Licensed under the MIT License (MIT), see
-  http://jedwatson.github.io/classnames
-*/
-
-/*!
- * Fuse.js v3.6.1 - Lightweight fuzzy-search (http://fusejs.io)
- * 
- * Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
- * All Rights Reserved. Apache Software License 2.0
- * 
- * http://www.apache.org/licenses/LICENSE-2.0
+ * Determine if an object is a Buffer
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
  */
 
 /*!
- * OverlayScrollbars
- * https://github.com/KingSora/OverlayScrollbars
+ * The buffer module from node.js, for the browser.
  *
- * Version: 1.12.0
+ * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org>
+ * @license  MIT
+ */
+
+/*!
+ * condense-newlines <https://github.com/jonschlinkert/condense-newlines>
  *
- * Copyright KingSora | Rene Haas.
- * https://github.com/KingSora
- *
- * Released under the MIT license.
- * Date: 05.04.2020
+ * Copyright (c) 2014 Jon Schlinkert, contributors.
+ * Licensed under the MIT License
  */
 
 /*!
@@ -49,19 +42,31 @@ object-assign
  */
 
 /*!
+ * is-extendable <https://github.com/jonschlinkert/is-extendable>
+ *
+ * Copyright (c) 2015, Jon Schlinkert.
+ * Licensed under the MIT License.
+ */
+
+/*!
+ * is-whitespace <https://github.com/jonschlinkert/is-whitespace>
+ *
+ * Copyright (c) 2014-2015, Jon Schlinkert.
+ * Licensed under the MIT License.
+ */
+
+/*!
  * isobject <https://github.com/jonschlinkert/isobject>
  *
  * Copyright (c) 2014-2017, Jon Schlinkert.
  * Released under the MIT License.
  */
 
-/**
- * Prism: Lightweight, robust, elegant syntax highlighting
+/*!
+ * pretty <https://github.com/jonschlinkert/pretty>
  *
- * @license MIT <https://opensource.org/licenses/MIT>
- * @author Lea Verou <https://lea.verou.me>
- * @namespace
- * @public
+ * Copyright (c) 2013-2015, 2017, Jon Schlinkert.
+ * Released under the MIT License.
  */
 
 /** @license React v0.19.1
@@ -99,3 +104,7 @@ object-assign
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
+
+//! stable.js 0.1.8, https://github.com/Two-Screen/stable
+
+//! © 2018 Angry Bytes and contributors. MIT licensed.
