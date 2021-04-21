@@ -11,6 +11,14 @@
   width: var(--C12);
 }
 
+._e_info_notice {
+  background-color: var(--B50);
+
+  & ._e_info__icon svg {
+    fill: var(--B400);
+  }
+}
+
 ._e_info_warning {
   background-color: var(--O50);
 
