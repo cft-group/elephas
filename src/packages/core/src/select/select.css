@@ -24,6 +24,13 @@
   }
 }
 
+._e_select._e_input_labelless {
+  & ._e_input__control:invalid {
+    font: var(--Body1);
+    color: var(--N600);
+  }
+}
+
 ._e_select__arrow {
   width: var(--S24);
   height: var(--S24);
