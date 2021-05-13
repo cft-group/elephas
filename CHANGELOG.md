@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.10.1](https://github.com/cft-group/elephas/compare/v1.10.0...v1.10.1) (2021-05-13)
+
+
+### Bug Fixes
+
+* **input:** set placeholder opacity to 1 ([740def0](https://github.com/cft-group/elephas/commit/740def0d33707780662f4a15d82c904d7366d97c))
+
+
+
+
+
 # [1.10.0](https://github.com/cft-group/elephas/compare/v1.9.0...v1.10.0) (2021-04-21)
 
 
