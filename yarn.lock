@@ -3405,17 +3405,17 @@
     lodash "^4.17.15"
 
 "@storybook/html@^6.0.5":
-  version "6.4.9"
-  resolved "https://registry.yarnpkg.com/@storybook/html/-/html-6.4.9.tgz#11976dbee4cca3303dc16f54ff3bd42ff6cbe57a"
-  integrity sha512-x2nFqV1oadkr2i4naB/O+3eTnjLdkogfuqTtw/nY0xDEDf8ow7xfkokjnYtsrZQ6Uks+vfvst4QXWt9S2wYF1w==
+  version "6.4.17"
+  resolved "https://registry.yarnpkg.com/@storybook/html/-/html-6.4.17.tgz#d5de5d58650b21b6272385a42ed02bd13128879c"
+  integrity sha512-rwjUjXEu6RutpW5w2n2E4rp6mO9HSy+dqba4yCrIfW0E8ZedlxgwWG8S4AxISPlP76mnNnPD+glQ0yQnlA7OAQ==
   dependencies:
-    "@storybook/addons" "6.4.9"
-    "@storybook/client-api" "6.4.9"
-    "@storybook/core" "6.4.9"
-    "@storybook/core-common" "6.4.9"
+    "@storybook/addons" "6.4.17"
+    "@storybook/client-api" "6.4.17"
+    "@storybook/core" "6.4.17"
+    "@storybook/core-common" "6.4.17"
     "@storybook/csf" "0.0.2--canary.87bc651.0"
-    "@storybook/preview-web" "6.4.9"
-    "@storybook/store" "6.4.9"
+    "@storybook/preview-web" "6.4.17"
+    "@storybook/store" "6.4.17"
     "@types/webpack-env" "^1.16.0"
     core-js "^3.8.2"
     global "^4.4.0"
