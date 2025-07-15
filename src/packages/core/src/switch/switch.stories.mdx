@@ -1,0 +1,28 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import pretty from 'pretty';
+
+import switchDefault from './switch.html';
+import disabledSwitch from './disabled-switch.html';
+import requiredSwitch from './required-switch.html';
+
+<Meta title="Core/Switch" />
+
+# Switch
+
+<Preview>
+  <Story name="default" parameters={{ docs: { source: { code: pretty(switchDefault) } } }}>
+    {() => switchDefault}
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="disabled" parameters={{ docs: { source: { code: pretty(disabledSwitch) } } }}>
+    {() => disabledSwitch}
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="required" parameters={{ docs: { source: { code: pretty(requiredSwitch) } } }}>
+    {() => requiredSwitch}
+  </Story>
+</Preview>
