@@ -84,8 +84,8 @@
   */
   &:checked:disabled {
     & + ._e_switch__icon {
-      background-color: var(--B100);
-      border-color: var(--B100);
+      background-color: var(--PrimaryLightHover);
+      border-color: var(--PrimaryLightHover);
     }
 
     & ~ ._e_switch__icon {
