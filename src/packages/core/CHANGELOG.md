@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.11.0](https://github.com/cft-group/elephas/compare/v1.10.1...v1.11.0) (2025-11-12)
+
+
+
+# 1.11.0 (2025-10-16)
+
+
+### Bug Fixes
+
+* **switch:** update border thickness ([2c8eef1](https://github.com/cft-group/elephas/commit/2c8eef1c1d5c367df2e009e44256574186e70047))
+* **switch:** use consistent color var for disabled checked icon ([30f1f2f](https://github.com/cft-group/elephas/commit/30f1f2ffa4ecea4f87e3e283d71647bf4155a0ba))
+
+
+### Features
+
+* **switch:** add Switch component with label and description ([b5ca78e](https://github.com/cft-group/elephas/commit/b5ca78eb54d5a27aeadb155b7c51e104b1e354b1))
+
+
+
+
+
 ## [1.10.1](https://github.com/cft-group/elephas/compare/v1.10.0...v1.10.1) (2021-05-13)
 
 
