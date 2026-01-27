@@ -21,7 +21,7 @@ jobs:
       - name: Set git email
         run: git config user.name "github@example.com"
       - name: Commit yarn.lock
-        run: git add yarl.lock && git commit --no-verify -m "Commit yarn.lock"  
+        run: git add yarn.lock && git commit --no-verify -m "Commit yarn.lock"  
       - name: Fetch tags
         run: git fetch --prune --unshallow
       - name: Release packages
