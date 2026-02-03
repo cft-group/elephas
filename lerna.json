@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1-ci-test",
+  "version": "1.11.5",
   "packages": [
     "src/packages/*"
   ],
