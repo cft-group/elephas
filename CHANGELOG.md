@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.11.6](https://github.com/cft-group/elephas/compare/v1.11.3...v1.11.6) (2026-02-03)
+
+
+### Reverts
+
+* Revert "try" ([8e94558](https://github.com/cft-group/elephas/commit/8e945589a1d50043202f9eb43011477c381e2484))
+
+
+
+
+
 ## [1.11.5](https://github.com/cft-group/elephas/compare/v1.11.4...v1.11.5) (2026-02-03)
 
 **Note:** Version bump only for package @elephas/root
