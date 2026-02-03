@@ -18,6 +18,8 @@ jobs:
           echo "//registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN" >> ~/.npmrc
       - name: Set git username
         run: git config user.name "github-actions"
+      - name: Set git user email
+        run: git config user.email "github-actions"
       - name: Fetch tags
         run: git fetch --prune --unshallow
       - name: Install lerna
