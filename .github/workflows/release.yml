@@ -82,8 +82,10 @@ jobs:
         persist-credentials: false
     - name: Install dependencies
       run: yarn install
+    - name: Bootstrap packages
+      run: ./node_modules/.bin/lerna bootstrap
     - name: Build storybook
-      run: yarn build-storybook    
+      run: NODE_OPTIONS=--openssl-legacy-provider yarn build-storybook    
     - name: Deploy to gh-pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
