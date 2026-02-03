@@ -1,9 +1,0 @@
-name: elephas
-
-services:
-  elephas-publish:
-    build:
-      context: ../
-      dockerfile: ./local-tests/Dockerfile
-    volumes:
-      - ./yarn.lock:/app/yarn.lock

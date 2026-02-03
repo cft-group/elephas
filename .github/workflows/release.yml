@@ -18,12 +18,12 @@ jobs:
           echo "//registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN" >> ~/.npmrc
       - name: Set git username
         run: git config user.name "github-actions"
+      - name: Set git email
+        run: git config user.name "github@example.com"
+      - name: Commit yarn.lock
+        run: git add yarn.lock && git commit --no-verify -m "Commit yarn.lock"  
       - name: Fetch tags
         run: git fetch --prune --unshallow
-      - name: Install lerna
-        run: yarn global add lerna@3.22.1 --prefix /home/runner/.yarn
-      - name: Bootstrap packages
-        run: /home/runner/.yarn/bin/lerna bootstrap
       - name: Release packages
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
