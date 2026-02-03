@@ -21,7 +21,9 @@ jobs:
       - name: Set git user email
         run: git config user.email "github-actions"
       - name: Commit changes
-        run: git add . && git commit "for yarn.lock changes" 
+        run: |
+          git add .
+          git commit "for yarn.lock changes" 
       - name: Fetch tags
         run: git fetch --prune --unshallow
       - name: Install lerna
