@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.11.9](https://github.com/cft-group/elephas/compare/v1.11.8...v1.11.9) (2026-02-03)
+
+**Note:** Version bump only for package @elephas/root
+
+
+
+
+
 ## [1.11.8](https://github.com/cft-group/elephas/compare/v1.11.7...v1.11.8) (2026-02-03)
 
 **Note:** Version bump only for package @elephas/root
