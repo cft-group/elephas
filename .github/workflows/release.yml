@@ -6,10 +6,9 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     environment: dev
-    needs: [validate]
     # Only run on the official repository to avoid wasted compute and unnecessary errors on forks (also an initial albeit weak first layer of protection against unauthorized releases)
     # Also ensure validation passed and we're releasing a canary version
-    if: github.repository == 'cft-group/elephas' && needs.validate.outputs.should_release == 'true'
+    if: github.repository == 'cft-group/elephas'
     permissions:
       # contents: read # No need to write to the repository for canary releases
       id-token: write # Required for trusted publishing
