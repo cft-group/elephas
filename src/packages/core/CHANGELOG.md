@@ -3,6 +3,46 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.11.14](https://github.com/cft-group/elephas/compare/v1.11.13...v1.11.14) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.13](https://github.com/cft-group/elephas/compare/v1.11.12...v1.11.13) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.12](https://github.com/cft-group/elephas/compare/v1.11.11...v1.11.12) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.11](https://github.com/cft-group/elephas/compare/v1.11.3...v1.11.11) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.10](https://github.com/cft-group/elephas/compare/v1.11.3...v1.11.10) (2026-02-03)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
 ## [1.11.9](https://github.com/cft-group/elephas/compare/v1.11.8...v1.11.9) (2026-02-03)
 
 **Note:** Version bump only for package @elephas/core
