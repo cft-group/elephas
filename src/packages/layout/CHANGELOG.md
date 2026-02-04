@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.11.18](https://github.com/cft-group/elephas/compare/v1.11.17...v1.11.18) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/layout
+
+
+
+
+
 ## [1.11.17](https://github.com/cft-group/elephas/compare/v1.11.16...v1.11.17) (2026-02-04)
 
 **Note:** Version bump only for package @elephas/layout
