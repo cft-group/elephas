@@ -5,24 +5,47 @@ jobs:
   publish:
     name: Release
     runs-on: ubuntu-latest
+    environment: dev
+    # Only run on the official repository to avoid wasted compute and unnecessary errors on forks (also an initial albeit weak first layer of protection against unauthorized releases)
+    # Also ensure validation passed and we're releasing a canary version
+    if: github.repository == 'cft-group/elephas'
+    permissions:
+      contents: write
+      id-token: write # Required for trusted publishing
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.0.0
+        uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          registry-url: 'https://registry.npmjs.org'
       - name: Install dependencies
         run: yarn install
-      - name: Create .npmrc
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: |
-          echo "registry=https://registry.npmjs.org/" >> ~/.npmrc
-          echo "//registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN" >> ~/.npmrc
+      # - name: Create .npmrc
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      #   run: |
+      #     echo "registry=https://registry.npmjs.org/" >> ~/.npmrc
+      #     echo "//registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN" >> ~/.npmrc
       - name: Set git username
         run: git config user.name "github-actions"
+      - name: Set git user email
+        run: git config user.email "github-actions"
+      # - name: Commit changes
+      #   run: |
+      #     git add yarn.lock
+      #     git commit -m 'for yarn.lock changes'
       - name: Fetch tags
         run: git fetch --prune --unshallow
+      - name: Install lerna
+        run: yarn global add lerna@9.0.0 --prefix /home/runner/.yarn
+      # - name: Bootstrap packages
+      #   run: /home/runner/.yarn/bin/lerna bootstrap
       - name: Release packages
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_CONFIG_PROVENANCE: true
+          # NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: yarn release
   upload-assets:
     name: Add css files to release
@@ -40,10 +63,9 @@ jobs:
           GITHUB_TOKEN: "${{ secrets.GH_TOKEN }}"
       - name: Install lerna
         run: |
-          yarn global add lerna
+          yarn global add lerna@9.0.0 --prefix /home/runner/.yarn
       - name: Generate css
         run: |
-          ~/.yarn/bin/lerna bootstrap
           ~/.yarn/bin/lerna run postcss
           ~/.yarn/bin/lerna run postcss:minify
       - name: Get css files
@@ -72,8 +94,10 @@ jobs:
         persist-credentials: false
     - name: Install dependencies
       run: yarn install
+    # - name: Bootstrap packages
+    #   run: ./node_modules/.bin/lerna bootstrap
     - name: Build storybook
-      run: yarn build-storybook    
+      run: NODE_OPTIONS=--openssl-legacy-provider yarn build-storybook    
     - name: Deploy to gh-pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:

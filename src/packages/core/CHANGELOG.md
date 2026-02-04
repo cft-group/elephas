@@ -3,6 +3,270 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.11.36](https://github.com/cft-group/elephas/compare/v1.11.35...v1.11.36) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.35](https://github.com/cft-group/elephas/compare/v1.11.34...v1.11.35) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.34](https://github.com/cft-group/elephas/compare/v1.11.33...v1.11.34) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.33](https://github.com/cft-group/elephas/compare/v1.11.32...v1.11.33) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.32](https://github.com/cft-group/elephas/compare/v1.11.31...v1.11.32) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.31](https://github.com/cft-group/elephas/compare/v1.11.30...v1.11.31) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.30](https://github.com/cft-group/elephas/compare/v1.11.29...v1.11.30) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.29](https://github.com/cft-group/elephas/compare/v1.11.28...v1.11.29) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.28](https://github.com/cft-group/elephas/compare/v1.11.27...v1.11.28) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.27](https://github.com/cft-group/elephas/compare/v1.11.26...v1.11.27) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.26](https://github.com/cft-group/elephas/compare/v1.11.25...v1.11.26) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.25](https://github.com/cft-group/elephas/compare/v1.11.24...v1.11.25) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.24](https://github.com/cft-group/elephas/compare/v1.11.23...v1.11.24) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.23](https://github.com/cft-group/elephas/compare/v1.11.22...v1.11.23) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.22](https://github.com/cft-group/elephas/compare/v1.11.21...v1.11.22) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.21](https://github.com/cft-group/elephas/compare/v1.11.20...v1.11.21) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.20](https://github.com/cft-group/elephas/compare/v1.11.19...v1.11.20) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.19](https://github.com/cft-group/elephas/compare/v1.11.18...v1.11.19) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.18](https://github.com/cft-group/elephas/compare/v1.11.17...v1.11.18) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.17](https://github.com/cft-group/elephas/compare/v1.11.16...v1.11.17) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.16](https://github.com/cft-group/elephas/compare/v1.11.15...v1.11.16) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.15](https://github.com/cft-group/elephas/compare/v1.11.14...v1.11.15) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.14](https://github.com/cft-group/elephas/compare/v1.11.13...v1.11.14) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.13](https://github.com/cft-group/elephas/compare/v1.11.12...v1.11.13) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.12](https://github.com/cft-group/elephas/compare/v1.11.11...v1.11.12) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.11](https://github.com/cft-group/elephas/compare/v1.11.3...v1.11.11) (2026-02-04)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.10](https://github.com/cft-group/elephas/compare/v1.11.3...v1.11.10) (2026-02-03)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.9](https://github.com/cft-group/elephas/compare/v1.11.8...v1.11.9) (2026-02-03)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.8](https://github.com/cft-group/elephas/compare/v1.11.7...v1.11.8) (2026-02-03)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.7](https://github.com/cft-group/elephas/compare/v1.11.6...v1.11.7) (2026-02-03)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.6](https://github.com/cft-group/elephas/compare/v1.11.3...v1.11.6) (2026-02-03)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.5](https://github.com/cft-group/elephas/compare/v1.11.4...v1.11.5) (2026-02-03)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
+## [1.11.4](https://github.com/cft-group/elephas/compare/v1.11.3...v1.11.4) (2026-02-03)
+
+**Note:** Version bump only for package @elephas/core
+
+
+
+
+
 ## [1.11.3](https://github.com/cft-group/elephas/compare/v1.11.2...v1.11.3) (2026-01-26)
 
 **Note:** Version bump only for package @elephas/core
