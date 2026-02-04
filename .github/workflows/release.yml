@@ -10,7 +10,7 @@ jobs:
     # Also ensure validation passed and we're releasing a canary version
     # if: github.repository == 'cft-group/elephas'
     permissions:
-      # contents: read # No need to write to the repository for canary releases
+      contents: write
       id-token: write # Required for trusted publishing
     steps:
       - name: Checkout
@@ -27,10 +27,10 @@ jobs:
         run: git config user.name "github-actions"
       - name: Set git user email
         run: git config user.email "github-actions"
-      - name: Commit changes
-        run: |
-          git add yarn.lock
-          git diff --quiet && git diff --staged --quiet || git commit -m 'for yarn.lock changes'
+      # - name: Commit changes
+      #   run: |
+      #     git add yarn.lock
+      #     git commit -m 'for yarn.lock changes'
       - name: Fetch tags
         run: git fetch --prune --unshallow
       - name: Install lerna
