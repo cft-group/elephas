@@ -33,7 +33,7 @@
     "postcss": "mkdir -p dist && find src -name '*.css' ! -path '*dist*' ! -path '*node_modules*' | entr -s \"find src -name '*.css' ! -path '*dist*' ! -path '*node_modules*' | xargs cat | postcss > dist/styles.min.css\"",
     "dev": "yarn postcss & yarn storybook",
     "lerna:version": "lerna version --exact --force-publish --conventional-commits --create-release github --yes",
-    "lerna:publish": "lerna publish from-package --contents dist --no-verify-access --force-publish --yes",
+    "lerna:publish": "lerna publish from-package --contents dist --yes",
     "release": "yarn lerna:version && yarn lerna:publish",
     "build-storybook": "yarn postcss:build && yarn storybook:build"
   },
