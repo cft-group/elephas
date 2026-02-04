@@ -8,7 +8,7 @@ jobs:
     environment: dev
     # Only run on the official repository to avoid wasted compute and unnecessary errors on forks (also an initial albeit weak first layer of protection against unauthorized releases)
     # Also ensure validation passed and we're releasing a canary version
-    if: github.repository == 'cft-group/elephas'
+    # if: github.repository == 'cft-group/elephas'
     permissions:
       # contents: read # No need to write to the repository for canary releases
       id-token: write # Required for trusted publishing
@@ -30,7 +30,7 @@ jobs:
       - name: Commit changes
         run: |
           git add yarn.lock
-          git diff --quiet && git diff --staged --quiet || git commit -am 'for yarn.lock changes'
+          git diff --quiet && git diff --staged --quiet || git commit -m 'for yarn.lock changes'
       - name: Fetch tags
         run: git fetch --prune --unshallow
       - name: Install lerna
