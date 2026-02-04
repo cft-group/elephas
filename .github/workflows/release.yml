@@ -30,7 +30,7 @@ jobs:
       - name: Commit changes
         run: |
           git add yarn.lock
-          git commit -m "for yarn.lock changes" 
+          git diff --quiet && git diff --staged --quiet || git commit -am 'for yarn.lock changes'
       - name: Fetch tags
         run: git fetch --prune --unshallow
       - name: Install lerna
