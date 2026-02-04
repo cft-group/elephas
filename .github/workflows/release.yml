@@ -60,7 +60,6 @@ jobs:
           yarn global add lerna
       - name: Generate css
         run: |
-          ~/.yarn/bin/lerna bootstrap
           ~/.yarn/bin/lerna run postcss
           ~/.yarn/bin/lerna run postcss:minify
       - name: Get css files
