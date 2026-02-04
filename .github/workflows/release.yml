@@ -88,8 +88,8 @@ jobs:
         persist-credentials: false
     - name: Install dependencies
       run: yarn install
-    - name: Bootstrap packages
-      run: ./node_modules/.bin/lerna bootstrap
+    # - name: Bootstrap packages
+    #   run: ./node_modules/.bin/lerna bootstrap
     - name: Build storybook
       run: NODE_OPTIONS=--openssl-legacy-provider yarn build-storybook    
     - name: Deploy to gh-pages
