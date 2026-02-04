@@ -29,8 +29,8 @@ jobs:
         run: git fetch --prune --unshallow
       - name: Install lerna
         run: yarn global add lerna@9.0.0 --prefix /home/runner/.yarn
-      - name: Bootstrap packages
-        run: /home/runner/.yarn/bin/lerna bootstrap
+      # - name: Bootstrap packages
+      #   run: /home/runner/.yarn/bin/lerna bootstrap
       - name: Release packages
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
