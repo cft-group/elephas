@@ -1,7 +1,7 @@
 {
   "name": "@elephas/core",
   "version": "1.11.36",
-  "private": true,
+  "private": false,
   "license": "SEE LICENSE IN LICENSE.md",
   "devDependencies": {
     "autoprefixer": "^9.8.0",
