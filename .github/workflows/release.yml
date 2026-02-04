@@ -40,6 +40,7 @@ jobs:
       - name: Release packages
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: yarn release
   upload-assets:
     name: Add css files to release
