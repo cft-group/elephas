@@ -1,10 +1,10 @@
 {
   "name": "@elephas/layout",
-  "version": "1.11.16",
+  "version": "1.11.17",
   "private": false,
   "license": "SEE LICENSE IN LICENSE.md",
   "dependencies": {
-    "@elephas/core": "1.11.16"
+    "@elephas/core": "1.11.17"
   },
   "devDependencies": {
     "autoprefixer": "^9.8.0",
