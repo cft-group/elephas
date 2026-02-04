@@ -57,7 +57,7 @@ jobs:
           GITHUB_TOKEN: "${{ secrets.GH_TOKEN }}"
       - name: Install lerna
         run: |
-          yarn global add lerna
+          yarn global add lerna@9.0.0 --prefix /home/runner/.yarn
       - name: Generate css
         run: |
           ~/.yarn/bin/lerna run postcss
