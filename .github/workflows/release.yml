@@ -44,6 +44,7 @@ jobs:
       - name: Release packages
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_CONFIG_PROVENANCE: true
           # NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: yarn release
   upload-assets:
