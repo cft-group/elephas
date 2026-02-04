@@ -1,6 +1,6 @@
 {
   "name": "@elephas/core",
-  "version": "1.11.22",
+  "version": "1.11.23",
   "private": true,
   "license": "SEE LICENSE IN LICENSE.md",
   "devDependencies": {
