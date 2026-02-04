@@ -1,7 +1,7 @@
 {
   "name": "@elephas/layout",
   "version": "1.11.22",
-  "private": false,
+  "private": true,
   "license": "SEE LICENSE IN LICENSE.md",
   "dependencies": {
     "@elephas/core": "1.11.22"

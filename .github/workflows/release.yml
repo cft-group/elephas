@@ -8,7 +8,7 @@ jobs:
     environment: dev
     # Only run on the official repository to avoid wasted compute and unnecessary errors on forks (also an initial albeit weak first layer of protection against unauthorized releases)
     # Also ensure validation passed and we're releasing a canary version
-    # if: github.repository == 'cft-group/elephas'
+    if: github.repository == 'cft-group/elephas'
     permissions:
       contents: write
       id-token: write # Required for trusted publishing
