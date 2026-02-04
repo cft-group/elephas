@@ -11,24 +11,24 @@ jobs:
         uses: actions/checkout@v2.0.0
       - name: Install dependencies
         run: yarn install
-      - name: Create .npmrc
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: |
-          echo "registry=https://registry.npmjs.org/" >> ~/.npmrc
-          echo "//registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN" >> ~/.npmrc
+      # - name: Create .npmrc
+      #   # env:
+      #   #   NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      #   run: |
+      #     echo "registry=https://registry.npmjs.org/" >> ~/.npmrc
+      #     echo "//registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN" >> ~/.npmrc
       - name: Set git username
         run: git config user.name "github-actions"
       - name: Set git user email
         run: git config user.email "github-actions"
-      # - name: Commit changes
-      #   run: |
-      #     git add yarn.lock
-      #     git commit -m "for yarn.lock changes" 
+      - name: Commit changes
+        run: |
+          git add yarn.lock
+          git commit -m "for yarn.lock changes" 
       - name: Fetch tags
         run: git fetch --prune --unshallow
       - name: Install lerna
-        run: yarn global add lerna@3.22.1 --prefix /home/runner/.yarn
+        run: yarn global add lerna@9.0.0 --prefix /home/runner/.yarn
       - name: Bootstrap packages
         run: /home/runner/.yarn/bin/lerna bootstrap
       - name: Release packages

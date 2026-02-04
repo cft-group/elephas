@@ -13,7 +13,7 @@
     "babel-loader": "^8.1.0",
     "cssnano": "^4.1.10",
     "husky": "^4.2.5",
-    "lerna": "^3.22.0",
+    "lerna": "9.0.0",
     "postcss": "^7.0.30",
     "postcss-autoreset": "^2.0.2",
     "postcss-cli": "^7.1.1",
